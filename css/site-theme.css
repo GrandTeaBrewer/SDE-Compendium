@@ -1,0 +1,109 @@
+/* Site theme */
+
+/* Page Structure */
+
+#pageContent {
+  padding: 2rem 4rem 0rem;
+  color: #373a3c;
+}
+
+/* Header */
+
+div.card-block {
+  color: #373a3c;
+}
+
+/* Footer */
+
+footer > .container-fluid {
+  padding: 0px 5rem;
+}
+
+/* Buttons  */
+
+.btn.btn-primary.btn-sm {
+  height: 30px;
+}
+
+.btn.btn-primary.btn-sm.is-checked,
+.btn-primary:focus {
+  background-color: #1769AA !important;
+}
+
+/* Images */
+
+.heroProfile {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+	margin: 5px;
+}
+
+#heroFilter div.heroProfile,
+.heroPicture {
+  width: 140px;
+  height: 140px;
+}
+
+a.logo img {
+  max-width: 250px;
+  padding-bottom: 1rem;
+}
+
+.img-thumbnail {
+  border: 1px solid #9e9e9e;
+}
+
+/* Hover caption styling */
+
+.hv_C.captionContainer {
+  height: 100%;
+  width: 100%;
+}
+
+.captionBackground {
+  width: 100%;
+  height: 100%;
+  /* background: rgba(0, 0, 0, 0) url("http://i64.tinypic.com/9azb15.png") no-repeat scroll 0 0; 
+  /* background: rgba(0, 0, 0, 0) src('/img/icons/viewicon_small.png') no-repeat scroll 0 0; */
+  overflow: hidden;
+}
+
+.captionBackground:before {
+	position: absolute;
+  font-family: 'FontAwesome';
+  top: 18%;
+  left: 33%;
+  font-size: 55px;
+  content: "\f111";
+  color: #51AEF3;
+}
+
+.captionBackground:after {
+  position: absolute;
+  font-family: 'FontAwesome';
+  top: 30%;
+  left: 40%;
+  font-size: 30px;
+  content: "\f002";
+  color: #fff;
+}
+
+.captionText {
+  font-family: 'open_sanslight';
+  font-size: 15px;
+  color: #fff;
+  padding: 0.4rem;
+  background-color: #2ea6ff;
+  height: 3rem;
+  border-radius: 8px; 
+  text-align: center;
+  font-weight: bold;
+  border-top: 2px solid #fff;
+  border-right: 2px solid #fff;
+  border-left: 2px solid #fff;
+}
