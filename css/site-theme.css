@@ -32,6 +32,10 @@ footer > .container-fluid {
 
 /* Images */
 
+.lg-object.lg-image {
+  border: 3px solid #fff;
+}
+
 .heroProfile {
   width: 100%;
   height: 100%;
