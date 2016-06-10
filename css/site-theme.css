@@ -1,117 +1,142 @@
 /* Site theme */
 
+body {
+	background:rgba(0, 0, 0, 0) url("../img/bg/page-background.jpg") no-repeat fixed center center / cover ;
+}
+
+.jumbotron {
+	background-color: rgba(255, 255, 255, 0.75);
+}
+
+.collapse.in {
+	background-color: rgba(255, 255, 255, 0.75);
+}
+
 /* Page Structure */
 
+.sectionFilter {
+  width: 100%;
+}
+
+
 #pageContent {
-  padding: 2rem 4rem 0rem;
-  color: #373a3c;
+	padding: 2rem 4rem 0rem;
+	color: #373a3c;
 }
 
 /* Header */
 
 div.card-block {
-  color: #373a3c;
+	color: #373a3c;
 }
 
 /* Footer */
 
 footer > .container-fluid {
-  padding: 0px 5rem;
+	padding: 0px 5rem;
 }
 
 /* Buttons  */
 
 .btn.btn-primary.btn-sm {
-  height: 30px;
+	height: 30px;
 }
 
 .btn.btn-primary.btn-sm.is-checked,
 .btn-primary:focus {
-  background-color: #1769AA !important;
+	background-color: #1769AA !important;
 }
 
-/* Images */
+/* Lightbox Gallery */
 
 .lg-object.lg-image {
-  border: 3px solid #fff;
+	border: 3px solid #fff;
 }
 
 .lg-sub-html, .lg-toolbar {
-  background-color: rgba(0, 0, 0, 0.6);
+	background-color: rgba(0, 0, 0, 0.6);
 }
 
-.heroProfile {
-  width: 100%;
-  height: 100%;
-  float: left;
-  overflow: hidden;
-  position: relative;
-  text-align: center;
-  cursor: default;
+/* Page Images */
+
+a.logo img {
+	max-width: 250px;
+	padding-bottom: 1rem;
+}
+
+/* char Images */
+
+.charProfile {
+	width: 110px;
+	height: 110px;
+	float: left;
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+	cursor: default;
 	margin: 5px;
 }
 
-#heroFilter div.heroProfile,
-.heroPicture {
-  width: 140px;
-  height: 140px;
-}
-
-a.logo img {
-  max-width: 250px;
-  padding-bottom: 1rem;
-}
-
 .img-thumbnail {
-  border: 1px solid #9e9e9e;
+	border: 1px solid #1769AA;
 }
 
-/* Hover caption styling */
+/* char Image hover */
 
-.hv_C.captionContainer {
-  height: 100%;
-  width: 100%;
+.img-thumbnail:hover {
+	border: 5px solid #1769AA;
 }
 
-.captionBackground {
-  width: 100%;
-  height: 100%;
-  /* background: rgba(0, 0, 0, 0) url("http://i64.tinypic.com/9azb15.png") no-repeat scroll 0 0; 
-  /* background: rgba(0, 0, 0, 0) src('/img/icons/viewicon_small.png') no-repeat scroll 0 0; */
-  overflow: hidden;
+.img-thumbnail:hover .demo-gallery-poster {
+	background-color: rgba(255, 0, 0, 0.9);
 }
 
-.captionBackground:before {
-	position: absolute;
-  font-family: 'FontAwesome';
-  top: 18%;
-  left: 33%;
-  font-size: 55px;
-  content: "\f111";
-  color: #51AEF3;
+.demo-gallery > ul > li a:hover .demo-gallery-poster {
+	background-color: rgba(0, 0, 0, 0.5);
 }
 
-.captionBackground:after {
-  position: absolute;
-  font-family: 'FontAwesome';
-  top: 30%;
-  left: 40%;
-  font-size: 30px;
-  content: "\f002";
-  color: #fff;
+a.charCard:hover .demo-gallery-poster {
+	background-color: rgba(0, 0, 0, 0.5);
+	}
+
+a.charCard:hover .demo-gallery-poster {
+	background-color: rgba(0, 0, 0, 0.5);
 }
 
-.captionText {
-  font-family: 'open_sanslight';
-  font-size: 15px;
-  color: #fff;
-  padding: 0.4rem;
-  background-color: #2ea6ff;
-  height: 3rem;
-  border-radius: 8px; 
-  text-align: center;
-  font-weight: bold;
-  border-top: 2px solid #fff;
-  border-right: 2px solid #fff;
-  border-left: 2px solid #fff;
+a.charCard:hover .demo-gallery-poster > img {
+	opacity: 1;
+}
+
+/* tooltip */
+
+.tooltip-inner {
+    padding: 3px 8px;
+    color: #fff;
+    text-align: center;
+    background-color: #1769AA;
+    border-radius: .25rem
+}
+
+.tooltip.bs-tether-element-attached-bottom .tooltip-arrow,
+.tooltip.tooltip-top .tooltip-arrow {
+    border-top-color: #1769AA;
+	border-width:15px 15px
+}
+
+.tooltip.bs-tether-element-attached-left .tooltip-arrow,
+.tooltip.tooltip-right .tooltip-arrow {
+    border-width: 5px 5px 5px 0;
+    border-right-color: #1769AA
+}
+
+.tooltip.bs-tether-element-attached-top .tooltip-arrow,
+.tooltip.tooltip-bottom .tooltip-arrow {
+    border-width: 0 5px 5px;
+    border-bottom-color: #1769AA
+}
+
+.tooltip.bs-tether-element-attached-right .tooltip-arrow,
+.tooltip.tooltip-left .tooltip-arrow {
+    border-width: 5px 0 5px 5px;
+    border-left-color: #1769AA
 }
