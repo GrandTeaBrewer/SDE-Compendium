@@ -5,7 +5,6 @@
 	<!-- Meta, meta on the page, who's the fairest of them all -->
 	<title>Super Dungeon Explore Heroes</title>
 	<meta charset="utf-8">
-	<meta name="description" content="The only complete source of Super Dungeon Explore character cards on the Internet. Search, filter and download high resolution scans of every hero, monster, creep and NPC released by Soda Pop Miniatures.">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<!-- Google Icon Font  -->
@@ -44,7 +43,7 @@
 
 <body role="document">
 	<!-- Header-->
-	<div class="transparentBG collapse" aria-expanded="false" id="exCollapsingNavbar">
+	<div class="collapse" aria-expanded="false" id="exCollapsingNavbar">
 		<div class="bg p-a-1">
 			<div class="row">
 				<div class="col-md-4">
@@ -81,7 +80,7 @@
 	</nav>
 	<!--/.Navbar-->
 	<!-- Page Content-->
-	<div id="pageContent" class="pageContent container-fluid">
+	<div id="pageContent" class="container-fluid">
 		<!-- Filters -->
 		<section id="filters" class="row">
 			<div class="col-md-12">
@@ -96,49 +95,46 @@
 								Character Type
 							</button>
 							<div class="dropdown-menu" aria-labelledby="dropdownMenu1">
-								<form>
-									<ul>
-										<li>
-											<input type="checkbox" value="" id="characters-all" class="all" name="charFilterAll" checked />
-											<label for="characters-all">All Characters</label>
-										</li>
-										<li>
-											<input type="checkbox" value=".heroFilter" id="heroFilter" name="charFilter" />
-											<label for="heroFilter">Heroes</label>
-										</li>
-										<li>
-											<input type="checkbox" value=".mobsFilter" id="mobsFilter" name="charFilter" />
-											<label for="mobsFilter">Monsters</label>
-										</li>
-										<li>
-											<input type="checkbox" value=".creepFilter" id="creepFilter" name="charFilter" />
-											<label for="creepFilter">Creeps</label>
-										</li>
-										<li>
-											<input type="checkbox" value=".spawnFilter" id="spawnFilter" name="charFilter" />
-											<label for="spawnFilter">Spawn Points</label>
-										</li>
-										<li>
-											<input type="checkbox" value=".minibossFilter" id="minibossFilter" name="charFilter" />
-											<label for="minibossFilter">Mini Bosses</label>
-										</li>
-										<li>
-											<input type="checkbox" value=".bossFilter" id="bossFilter" name="charFilter" />
-											<label for="bossFilter">Dungeon Bosses</label>
-										</li>
-										<li>
-											<input type="checkbox" value=".shifterFilter" id="shifterFilter" name="charFilter" />
-											<label for="shifterFilter">Shapeshift Forms</label>
-										</li>
-										<li>
-											<input type="checkbox" value=".otherFilter" id="otherFilter" name="charFilter" />
-											<label for="otherFilter">Other Characters</label>
-										</li>
-									</ul>
-								</form>
+								<ul>
+									<li>
+										<input type="checkbox" value="" id="characters-all" class="all" name="charFilterAll" checked />
+										<label for="characters-all">All Characters</label>
+									</li>
+									<li>
+										<input type="checkbox" value=".heroFilter" id="heroFilter" name="charFilter" />
+										<label for="heroFilter">Heroes</label>
+									</li>
+									<li>
+										<input type="checkbox" value=".mobsFilter" id="mobsFilter" name="charFilter" />
+										<label for="mobsFilter">Monsters</label>
+									</li>
+									<li>
+										<input type="checkbox" value=".creepFilter" id="creepFilter" name="charFilter" />
+										<label for="creepFilter">Creeps</label>
+									</li>
+									<li>
+										<input type="checkbox" value=".spawnFilter" id="spawnFilter" name="charFilter" />
+										<label for="spawnFilter">Spawn Points</label>
+									</li>
+									<li>
+										<input type="checkbox" value=".minibossFilter" id="minibossFilter" name="charFilter" />
+										<label for="minibossFilter">Mini Bosses</label>
+									</li>
+									<li>
+										<input type="checkbox" value=".bossFilter" id="bossFilter" name="charFilter" />
+										<label for="bossFilter">Dungeon Bosses</label>
+									</li>
+									<li>
+										<input type="checkbox" value=".shifterFilter" id="shifterFilter" name="charFilter" />
+										<label for="shifterFilter">Shapeshift Forms</label>
+									</li>
+									<li>
+										<input type="checkbox" value=".otherFilter" id="otherFilter" name="charFilter" />
+										<label for="otherFilter">Other Characters</label>
+									</li>
+								</ul>
 							</div>
 						</div>
-
 					</div>
 
 					<div id="filter2" class="col-md-3 ui-group filters">
@@ -170,58 +166,56 @@
 								Retail Package
 							</button>
 							<div class="dropdown-menu" aria-labelledby="dropdownMenu1">
-								<form>
-									<ul>
-										<li>
-											<input type="checkbox" value="" id="package-all" name="packageFilterAll" class="all" checked />
-											<label for="package-all">All Retail Packages</label>
-										</li>
-										<li>
-											<input type="checkbox" value=".DPC" id="DPC" name="packageFilter" />
-											<label for="DPC">Dragonback Peaks </label>
-										</li>
-										<li>
-											<input type="checkbox" value=".FKC" id="FKC" name="packageFilter" />
-											<label for="FKC">Forgotten King</label>
-										</li>
-										<li>
-											<input type="checkbox" value=".CRE" id="CRE" name="packageFilter" />
-											<label for="CRE">Caverns of Roxor</label>
-										</li>
-										<li>
-											<input type="checkbox" value=".VDM" id="VDM" name="packageFilter" />
-											<label for="VDM">Von Drakks Manor</label>
-										</li>
-										<li>
-											<input type="checkbox" value=".EVW" id="EVW" name="packageFilter" />
-											<label for="EVW">Emerald Valley</label>
-										</li>
-										<li>
-											<input type="checkbox" value=".MCW" id="MCW" name="packageFilter" />
-											<label for="MCW">Mistmourn Coast</label>
-										</li>
-										<li>
-											<input type="checkbox" value=".CWW" id="CWW" name="packageFilter" />
-											<label for="CWW">Claws of the Wyrm</label>
-										</li>
-										<li>
-											<input type="checkbox" value=".STZ" id="STZ" name="packageFilter" />
-											<label for="STZ">Stilt Town Zombies</label>
-										</li>
-										<li>
-											<input type="checkbox" value=".NAS" id="NAS" name="packageFilter" />
-											<label for="NAS">Ninja All Stars</label>
-										</li>
-										<li>
-											<input type="checkbox" value=".SIN" id="SIN" name="packageFilter" />
-											<label for="SIN">Individual Heroes</label>
-										</li>
-										<li>
-											<input type="checkbox" value=".LGK" id="LGK" name="packageFilter" />
-											<label for="LGK">Legends Kickstarter</label>
-										</li>
-									</ul>
-								</form>
+								<ul>
+									<li>
+										<input type="checkbox" value="" id="package-all" name="packageFilterAll" class="all" checked />
+										<label for="package-all">All Retail Packages</label>
+									</li>
+									<li>
+										<input type="checkbox" value=".DPC" id="DPC" name="packageFilter" />
+										<label for="DPC">Dragonback Peaks </label>
+									</li>
+									<li>
+										<input type="checkbox" value=".FKC" id="FKC" name="packageFilter" />
+										<label for="FKC">Forgotten King</label>
+									</li>
+									<li>
+										<input type="checkbox" value=".CRE" id="CRE" name="packageFilter" />
+										<label for="CRE">Caverns of Roxor</label>
+									</li>
+									<li>
+										<input type="checkbox" value=".VDM" id="VDM" name="packageFilter" />
+										<label for="VDM">Von Drakks Manor</label>
+									</li>
+									<li>
+										<input type="checkbox" value=".EVW" id="EVW" name="packageFilter" />
+										<label for="EVW">Emerald Valley</label>
+									</li>
+									<li>
+										<input type="checkbox" value=".MCW" id="MCW" name="packageFilter" />
+										<label for="MCW">Mistmourn Coast</label>
+									</li>
+									<li>
+										<input type="checkbox" value=".CWW" id="CWW" name="packageFilter" />
+										<label for="CWW">Claws of the Wyrm</label>
+									</li>
+									<li>
+										<input type="checkbox" value=".STZ" id="STZ" name="packageFilter" />
+										<label for="STZ">Stilt Town Zombies</label>
+									</li>
+									<li>
+										<input type="checkbox" value=".NAS" id="NAS" name="packageFilter" />
+										<label for="NAS">Ninja All Stars</label>
+									</li>
+									<li>
+										<input type="checkbox" value=".SIN" id="SIN" name="packageFilter" />
+										<label for="SIN">Individual Heroes</label>
+									</li>
+									<li>
+										<input type="checkbox" value=".LGK" id="LGK" name="packageFilter" />
+										<label for="LGK">Legends Kickstarter</label>
+									</li>
+								</ul>
 							</div>
 						</div>
 					</div>
@@ -263,7 +257,7 @@
 			</div>
 			<div class=" charProfile heroFilter RTR DPC LH">
 				<a class="charCard" href="img/heroes/claw-tribe_barbarian.jpg" data-sub-html="<h2 class=”h2-responsive”>Claw-Tribe Barbarian</h2><h5 class=”h5-responsive”>Available from: Dragonback Peaks Core Box/SDE 2.0 Starter Box. Currently available at retail</h5>">
-					<img src="img/heroes/claw-tribe_barbarian_icon.jpg" alt="Claw-Tribe Barbarian" class="charPicture img-thumbnail img-responsive" data-toggle="tooltip" data-placement="bottom" title="Claw-Tribe Barbarian" />Claw-Tribe Barbarian</a>
+				<img src="img/heroes/claw-tribe_barbarian_icon.jpg" alt="Claw-Tribe Barbarian" class="charPicture img-thumbnail img-responsive" data-toggle="tooltip" data-placement="bottom" title="Claw-Tribe Barbarian" />Claw-Tribe Barbarian</a>
 			</div>
 			<div class=" charProfile heroFilter RTR SIN LH">
 				<a class="charCard" href="img/heroes/codifier_kisa.jpg" data-sub-html="<h2 class=”h2-responsive”>Codifier Kisa</h2><h5 class=”h5-responsive”>Available from: Codifier Kisa Single Crossover Miniature. Currently available at retail</h5>"> <img src="img/heroes/codifier_kisa_icon.jpg" alt="Codifier Kisa" class="charPicture img-thumbnail img-responsive" data-toggle="tooltip" data-placement="bottom" title="Codifier Kisa" />Codifier Kisa</a>
@@ -306,11 +300,11 @@
 			</div>
 			<div class=" charProfile heroFilter RTR DPC LH">
 				<a class="charCard" href="img/heroes/glimmerdusk_ranger.jpg" data-sub-html="<h2 class=”h2-responsive”>Glimmerdusk Ranger</h2><h5 class=”h5-responsive”>Available from: Dragonback Peaks Core Box/SDE 2.0 Starter Box. Currently available at retail</h5>">
-					<img src="img/heroes/glimmerdusk_ranger_icon.jpg" alt="Glimmerdusk Ranger" class="charPicture img-thumbnail img-responsive" data-toggle="tooltip" data-placement="bottom" title="Glimmerdusk Ranger" />Glimmerdusk Ranger</a>
+				<img src="img/heroes/glimmerdusk_ranger_icon.jpg" alt="Glimmerdusk Ranger" class="charPicture img-thumbnail img-responsive" data-toggle="tooltip" data-placement="bottom" title="Glimmerdusk Ranger" />Glimmerdusk Ranger</a>
 			</div>
 			<div class=" charProfile heroFilter RTR DPC LH">
 				<a class="charCard" href="img/heroes/hearthsworn_fighter.jpg" data-sub-html="<h2 class=”h2-responsive”>Hearthsworn Fighter</h2><h5 class=”h5-responsive”>Available from: Dragonback Peaks Core Box/SDE 2.0 Starter Box. Currently available at retail</h5>">
-					<img src="img/heroes/hearthsworn_fighter_icon.jpg" alt="Hearthsworn Fighter" class="charPicture img-thumbnail img-responsive" data-toggle="tooltip" data-placement="bottom" title="Hearthsworn Fighter" />Hearthsworn Fighter</a>
+				<img src="img/heroes/hearthsworn_fighter_icon.jpg" alt="Hearthsworn Fighter" class="charPicture img-thumbnail img-responsive" data-toggle="tooltip" data-placement="bottom" title="Hearthsworn Fighter" />Hearthsworn Fighter</a>
 			</div>
 			<div class=" charProfile heroFilter TBR MTW LGK LH">
 				<a class="charCard" href="img/heroes/hearthsworn_tincan.jpg" data-sub-html="<h2 class=”h2-responsive”>Hearthsworn Tincan</h2><h5 class=”h5-responsive”>Available from: Midnight Tower Expansion. Not yet available at retail</h5>"> <img src="img/heroes/hearthsworn_tincan_icon.jpg" alt="Hearthsworn Tincan" class="charPicture img-thumbnail img-responsive" data-toggle="tooltip" data-placement="bottom" title="Hearthsworn Tincan" />Hearthsworn Tincan</a>
@@ -674,7 +668,7 @@
 			</div>
 			<div class=" charProfile minibossFilter RTR SIN MB">
 				<a class="charCard" href="img/mini_bosses/kaelly_the_nether_strider.jpg" data-sub-html="<h2 class=”h2-responsive”>Kaelly the Nether Strider</h2><h5 class=”h5-responsive”>Available from: Kaelly the Nether Strider Single Miniature. Currently available at retail</h5>">
-					<img src="img/mini_bosses/kaelly_the_nether_strider_icon.jpg" alt="Kaelly the Nether Strider" class="charPicture img-thumbnail img-responsive" data-toggle="tooltip" data-placement="bottom" title="Kaelly the Nether Strider" />Kaelly the Nether Strider</a>
+				<img src="img/mini_bosses/kaelly_the_nether_strider_icon.jpg" alt="Kaelly the Nether Strider" class="charPicture img-thumbnail img-responsive" data-toggle="tooltip" data-placement="bottom" title="Kaelly the Nether Strider" />Kaelly the Nether Strider</a>
 			</div>
 			<div class=" charProfile minibossFilter RTR SIN MB">
 				<a class="charCard" href="img/mini_bosses/kassaro_to.jpg" data-sub-html="<h2 class=”h2-responsive”>Kassaro To</h2><h5 class=”h5-responsive”>Available from: Kassaro To Single Crossover Miniature. Currently available at retail</h5>"> <img src="img/mini_bosses/kassaro_to_icon.jpg" alt="Kassaro To" class="charPicture img-thumbnail img-responsive" data-toggle="tooltip" data-placement="bottom" title="Kassaro To" />Kassaro To</a>
@@ -755,7 +749,7 @@
 			</div>
 			<div class=" charProfile bossFilter OOP SIN DB">
 				<a class="charCard" href="img/dungeon_bosses/king_starfire.jpg" data-sub-html="<h2 class=”h2-responsive”>King Starfire</h2><h5 class=”h5-responsive”>Available from: OOP King Starfire Single Dungeon Boss Miniature/Forgotten King Upgrade Deck. Out of print and not available at retail</h5>">
-					<img src="img/dungeon_bosses/king_starfire_icon.jpg" alt="King Starfire" class="charPicture img-thumbnail img-responsive" data-toggle="tooltip" data-placement="bottom" title="King Starfire" />King Starfire</a>
+				<img src="img/dungeon_bosses/king_starfire_icon.jpg" alt="King Starfire" class="charPicture img-thumbnail img-responsive" data-toggle="tooltip" data-placement="bottom" title="King Starfire" />King Starfire</a>
 			</div>
 			<div class=" charProfile bossFilter TBR BL1 LGK DB">
 				<a class="charCard" href="img/dungeon_bosses/mordred,_the_accursed.jpg" data-sub-html="<h2 class=”h2-responsive”>Mordred, the Accursed</h2><h5 class=”h5-responsive”>Available from: Bosses of Legend. Not yet available at retail</h5>"> <img src="img/dungeon_bosses/mordred,_the_accursed_icon.jpg" alt="Mordred, the Accursed" class="charPicture img-thumbnail img-responsive" data-toggle="tooltip" data-placement="bottom" title="Mordred, the Accursed" />Mordred, the Accursed</a>
@@ -780,7 +774,7 @@
 			</div>
 			<div class=" charProfile bossFilter TBR MTW LGK DB">
 				<a class="charCard" href="img/dungeon_bosses/the_midnight_queen_and_daemonus.jpg" data-sub-html="<h2 class=”h2-responsive”>The Midnight Queen and Daemonus</h2><h5 class=”h5-responsive”>Available from: Midnight Tower Expansion. Not yet available at retail</h5>">
-					<img src="img/dungeon_bosses/the_midnight_queen_and_daemonus_icon.jpg" alt="The Midnight Queen and Daemonus" class="charPicture img-thumbnail img-responsive" data-toggle="tooltip" data-placement="bottom" title="The Midnight Queen and Daemonus" />The
+				<img src="img/dungeon_bosses/the_midnight_queen_and_daemonus_icon.jpg" alt="The Midnight Queen and Daemonus" class="charPicture img-thumbnail img-responsive" data-toggle="tooltip" data-placement="bottom" title="The Midnight Queen and Daemonus" />The
 					Midnight Queen and Daemonus</a>
 			</div>
 			<div class=" charProfile bossFilter RTR VDM DB">
@@ -798,22 +792,21 @@
 
 			<div class=" charProfile spawnFilter RTR FKC SP">
 				<a class="charCard" href="img/spawn_points/bramble_knight_spawn_point.jpg" data-sub-html="<h2 class=”h2-responsive”>Bramble Knight Spawn Point</h2><h5 class=”h5-responsive”>Available from: Forgotten King Core Box. Currently available at retail</h5>">
-					<img src="img/spawn_points/bramble_knight_spawn_point_icon.jpg" alt="Bramble Knight Spawn Point" class="charPicture img-thumbnail img-responsive" data-toggle="tooltip" data-placement="bottom" title="Bramble Knight Spawn Point" />Bramble Knight Spawn
-					Point
-				</a>
+				<img src="img/spawn_points/bramble_knight_spawn_point_icon.jpg" alt="Bramble Knight Spawn Point" class="charPicture img-thumbnail img-responsive" data-toggle="tooltip" data-placement="bottom" title="Bramble Knight Spawn Point" />Bramble Knight Spawn
+					Point</a>
 			</div>
 			<div class=" charProfile spawnFilter RTR CWW PSP">
 				<a class="charCard" href="img/spawn_points/claw_shrine_paired_spawn_point.jpg" data-sub-html="<h2 class=”h2-responsive”>Claw Shrine Paired Spawn Point</h2><h5 class=”h5-responsive”>Available from: Claws of the Wyrm Warband. Currently available at retail</h5>">
-					<img src="img/spawn_points/claw_shrine_paired_spawn_point_icon.jpg" alt="Claw Shrine Paired Spawn Point" class="charPicture img-thumbnail img-responsive" data-toggle="tooltip" data-placement="bottom" title="Claw Shrine Paired Spawn Point" />Claw
-					Shrine Paired Spawn Point</a>
+				<img src="img/spawn_points/claw_shrine_paired_spawn_point_icon.jpg" alt="Claw Shrine Paired Spawn Point" class="charPicture img-thumbnail img-responsive" data-toggle="tooltip" data-placement="bottom" title="Claw Shrine Paired Spawn Point" />Claw Shrine
+					Paired Spawn Point</a>
 			</div>
 			<div class=" charProfile spawnFilter RTR DPC SP">
 				<a class="charCard" href="img/spawn_points/egg_clutch_spawn_point.jpg" data-sub-html="<h2 class=”h2-responsive”>Egg Clutch Spawn Point</h2><h5 class=”h5-responsive”>Available from: Dragonback Peaks Core Set/SDE 2.0 Starter Box. Currently available at retail</h5>">
-					<img src="img/spawn_points/egg_clutch_spawn_point_icon.jpg" alt="Egg Clutch Spawn Point" class="charPicture img-thumbnail img-responsive" data-toggle="tooltip" data-placement="bottom" title="Egg Clutch Spawn Point" />Egg Clutch Spawn Point</a>
+				<img src="img/spawn_points/egg_clutch_spawn_point_icon.jpg" alt="Egg Clutch Spawn Point" class="charPicture img-thumbnail img-responsive" data-toggle="tooltip" data-placement="bottom" title="Egg Clutch Spawn Point" />Egg Clutch Spawn Point</a>
 			</div>
 			<div class=" charProfile spawnFilter RTR NAS PSP">
 				<a class="charCard" href="img/spawn_points/elemental_shrine_paired_spawn_point.jpg" data-sub-html="<h2 class=”h2-responsive”>Elemental Shrine Paired Spawn Point</h2><h5 class=”h5-responsive”>Available from: Super Dungeon: Ninja Pack. Currently available at retail</h5>">
-					<img src="img/spawn_points/elemental_shrine_paired_spawn_point_icon.jpg" alt="Elemental Shrine Paired Spawn Point" class="charPicture img-thumbnail img-responsive" data-toggle="tooltip" data-placement="bottom" title="Elemental Shrine Paired Spawn Point"
+				<img src="img/spawn_points/elemental_shrine_paired_spawn_point_icon.jpg" alt="Elemental Shrine Paired Spawn Point" class="charPicture img-thumbnail img-responsive" data-toggle="tooltip" data-placement="bottom" title="Elemental Shrine Paired Spawn Point"
 					/>Elemental Shrine Paired Spawn Point</a>
 			</div>
 			<div class=" charProfile spawnFilter RTR EVW SP">
@@ -821,30 +814,29 @@
 			</div>
 			<div class=" charProfile spawnFilter RTR STZ PSP">
 				<a class="charCard" href="img/spawn_points/grabby_house_paired_spawn_point.jpg" data-sub-html="<h2 class=”h2-responsive”>Grabby House Paired Spawn Point</h2><h5 class=”h5-responsive”>Available from: Stilt Town Zombies Warband. Currently available at retail</h5>">
-					<img src="img/spawn_points/grabby_house_paired_spawn_point_icon.jpg" alt="Grabby House Paired Spawn Point" class="charPicture img-thumbnail img-responsive" data-toggle="tooltip" data-placement="bottom" title="Grabby House Paired Spawn Point" />Grabby
+				<img src="img/spawn_points/grabby_house_paired_spawn_point_icon.jpg" alt="Grabby House Paired Spawn Point" class="charPicture img-thumbnail img-responsive" data-toggle="tooltip" data-placement="bottom" title="Grabby House Paired Spawn Point" />Grabby
 					House Paired Spawn Point</a>
 			</div>
 			<div class=" charProfile spawnFilter RTR DPC PSP">
 				<a class="charCard" href="img/spawn_points/kobold_warrens_paired_spawn_point.jpg" data-sub-html="<h2 class=”h2-responsive”>Kobold Warrens Paired Spawn Point</h2><h5 class=”h5-responsive”>Available from: Dragonback Peaks Core Box/SDE 2.0 Starter Box. Currently available at retail</h5>">
-					<img src="img/spawn_points/kobold_warrens_paired_spawn_point_icon.jpg" alt="Kobold Warrens Paired Spawn Point" class="charPicture img-thumbnail img-responsive" data-toggle="tooltip" data-placement="bottom" title="Kobold Warrens Paired Spawn Point" />Kobold
-					Warrens Paired Spawn Point</a>
+				<img src="img/spawn_points/kobold_warrens_paired_spawn_point_icon.jpg" alt="Kobold Warrens Paired Spawn Point" class="charPicture img-thumbnail img-responsive" data-toggle="tooltip" data-placement="bottom" title="Kobold Warrens Paired Spawn Point"
+					/>Kobold Warrens Paired Spawn Point</a>
 			</div>
 			<div class=" charProfile spawnFilter RTR CRE SP">
 				<a class="charCard" href="img/spawn_points/lava_whirl_spawn_point.jpg" data-sub-html="<h2 class=”h2-responsive”>Lava Whirl Spawn Point</h2><h5 class=”h5-responsive”>Available from: Caverns of Roxor Expansion. Currently available at retail</h5>"> <img src="img/spawn_points/lava_whirl_spawn_point_icon.jpg" alt="Lava Whirl Spawn Point" class="charPicture img-thumbnail img-responsive" data-toggle="tooltip" data-placement="bottom" title="Lava Whirl Spawn Point" />Lava Whirl Spawn Point</a>
 			</div>
 			<div class=" charProfile spawnFilter RTR FKC PSP">
 				<a class="charCard" href="img/spawn_points/old-growth_hollow_paired_spawn_point.jpg" data-sub-html="<h2 class=”h2-responsive”>Old-Growth Hollow Paired Spawn Point</h2><h5 class=”h5-responsive”>Available from: Forgotten King Core Box. Currently available at retail</h5>">
-					<img src="img/spawn_points/old-growth_hollow_paired_spawn_point_icon.jpg" alt="Old-Growth Hollow Paired Spawn Point" class="charPicture img-thumbnail img-responsive" data-toggle="tooltip" data-placement="bottom" title="Old-Growth Hollow Paired Spawn Point"
+				<img src="img/spawn_points/old-growth_hollow_paired_spawn_point_icon.jpg" alt="Old-Growth Hollow Paired Spawn Point" class="charPicture img-thumbnail img-responsive" data-toggle="tooltip" data-placement="bottom" title="Old-Growth Hollow Paired Spawn Point"
 					/>Old-Growth Hollow Paired Spawn Point</a>
 			</div>
 			<div class=" charProfile spawnFilter RTR VDM SP">
 				<a class="charCard" href="img/spawn_points/pumpkin_patch_spawn_point.jpg" data-sub-html="<h2 class=”h2-responsive”>Pumpkin Patch Spawn Point</h2><h5 class=”h5-responsive”>Available from: Von Drakk Manor Expansion. Currently available at retail</h5>">
-					<img src="img/spawn_points/pumpkin_patch_spawn_point_icon.jpg" alt="Pumpkin Patch Spawn Point" class="charPicture img-thumbnail img-responsive" data-toggle="tooltip" data-placement="bottom" title="Pumpkin Patch Spawn Point" />Pumpkin Patch Spawn
-					Point</a>
+				<img src="img/spawn_points/pumpkin_patch_spawn_point_icon.jpg" alt="Pumpkin Patch Spawn Point" class="charPicture img-thumbnail img-responsive" data-toggle="tooltip" data-placement="bottom" title="Pumpkin Patch Spawn Point" />Pumpkin Patch Spawn Point</a>
 			</div>
 			<div class=" charProfile spawnFilter RTR CRE PSP">
 				<a class="charCard" href="img/spawn_points/rock_pile_paired_spawn_point.jpg" data-sub-html="<h2 class=”h2-responsive”>Rock Pile Paired Spawn Point</h2><h5 class=”h5-responsive”>Available from: Caverns of Roxor Expansion. Currently available at retail</h5>">
-					<img src="img/spawn_points/rock_pile_paired_spawn_point_icon.jpg" alt="Rock Pile Paired Spawn Point" class="charPicture img-thumbnail img-responsive" data-toggle="tooltip" data-placement="bottom" title="Rock Pile Paired Spawn Point" />Rock Pile Paired
+				<img src="img/spawn_points/rock_pile_paired_spawn_point_icon.jpg" alt="Rock Pile Paired Spawn Point" class="charPicture img-thumbnail img-responsive" data-toggle="tooltip" data-placement="bottom" title="Rock Pile Paired Spawn Point" />Rock Pile Paired
 					Spawn Point</a>
 			</div>
 			<div class=" charProfile spawnFilter RTR MCW SP">
@@ -855,7 +847,7 @@
 			</div>
 			<div class=" charProfile spawnFilter RTR VDM PSP">
 				<a class="charCard" href="img/spawn_points/shallow_grave_paired_spawn_point.jpg" data-sub-html="<h2 class=”h2-responsive”>Shallow Grave Paired Spawn Point</h2><h5 class=”h5-responsive”>Available from: Von Drakk Manor Expansion. Currently available at retail</h5>">
-					<img src="img/spawn_points/shallow_grave_paired_spawn_point_icon.jpg" alt="Shallow Grave Paired Spawn Point" class="charPicture img-thumbnail img-responsive" data-toggle="tooltip" data-placement="bottom" title="Shallow Grave Paired Spawn Point" />Shallow
+				<img src="img/spawn_points/shallow_grave_paired_spawn_point_icon.jpg" alt="Shallow Grave Paired Spawn Point" class="charPicture img-thumbnail img-responsive" data-toggle="tooltip" data-placement="bottom" title="Shallow Grave Paired Spawn Point" />Shallow
 					Grave Paired Spawn Point</a>
 			</div>
 			<div class=" charProfile spawnFilter TBR FRW LGK SP">
@@ -1029,15 +1021,15 @@
 			</div>
 			<div class=" charProfile otherFilter RTR FKC BOO">
 				<a class="charCard" href="img/other/booty_biter.jpg" data-sub-html="<h2 class=”h2-responsive”>Booty Biter</h2><h5 class=”h5-responsive”>Available from: Forgotten King Core Box/Dragonback Peaks Core Box/SDE 2.0 Starter Box. Currently available at retail</h5>">
-					<img src="img/other/booty_biter_icon.jpg" alt="Booty Biter" class="charPicture img-thumbnail img-responsive" data-toggle="tooltip" data-placement="bottom" title="Booty Biter" />Booty Biter</a>
+				<img src="img/other/booty_biter_icon.jpg" alt="Booty Biter" class="charPicture img-thumbnail img-responsive" data-toggle="tooltip" data-placement="bottom" title="Booty Biter" />Booty Biter</a>
 			</div>
 			<div class=" charProfile otherFilter RTR FKC BOO">
 				<a class="charCard" href="img/other/booty_grinder.jpg" data-sub-html="<h2 class=”h2-responsive”>Booty Grinder</h2><h5 class=”h5-responsive”>Available from: Forgotten King Core Box/Dragonback Peaks Core Box/SDE 2.0 Starter Box. Currently available at retail</h5>">
-					<img src="img/other/booty_grinder_icon.jpg" alt="Booty Grinder" class="charPicture img-thumbnail img-responsive" data-toggle="tooltip" data-placement="bottom" title="Booty Grinder" />Booty Grinder</a>
+				<img src="img/other/booty_grinder_icon.jpg" alt="Booty Grinder" class="charPicture img-thumbnail img-responsive" data-toggle="tooltip" data-placement="bottom" title="Booty Grinder" />Booty Grinder</a>
 			</div>
 			<div class=" charProfile otherFilter RTR FKC BOO">
 				<a class="charCard" href="img/other/bouncing_booty.jpg" data-sub-html="<h2 class=”h2-responsive”>Bouncing Booty</h2><h5 class=”h5-responsive”>Available from: Forgotten King Core Box/Dragonback Peaks Core Box/SDE 2.0 Starter Box. Currently available at retail</h5>">
-					<img src="img/other/bouncing_booty_icon.jpg" alt="Bouncing Booty" class="charPicture img-thumbnail img-responsive" data-toggle="tooltip" data-placement="bottom" title="Bouncing Booty" />Bouncing Booty</a>
+				<img src="img/other/bouncing_booty_icon.jpg" alt="Bouncing Booty" class="charPicture img-thumbnail img-responsive" data-toggle="tooltip" data-placement="bottom" title="Bouncing Booty" />Bouncing Booty</a>
 			</div>
 			<div class=" charProfile otherFilter TBR LGK NPC">
 				<a class="charCard" href="img/other/burke_baddhammer.jpg" data-sub-html="<h2 class=”h2-responsive”>Burke Baddhammer</h2><h5 class=”h5-responsive”>Available from: Legends Kickstarter. Not yet available at retail</h5>"> <img src="img/other/burke_baddhammer_icon.jpg" alt="Burke Baddhammer" class="charPicture img-thumbnail img-responsive" data-toggle="tooltip" data-placement="bottom" title="Burke Baddhammer" />Burke Baddhammer</a>
