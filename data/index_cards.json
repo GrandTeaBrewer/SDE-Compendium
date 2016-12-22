@@ -1,0 +1,66 @@
+{
+    "cardindex": [{
+        "title": "Character Card Library",
+        "description": "The most complete source of scanned Super Dungeon Explore character cards on the Internet. Search, filter and download high resolution scans of every hero, monster, creep and NPC released by Soda Pop Miniatures.",
+        "link": "./library",
+        "image": "./img/bg/card_library.png",
+        "display": "Yes",
+        "updated": "Last updated 2016/12/04"
+    }, {
+        "title": "Hero Guide",
+        "description": "A resource dedicated to understanding the heroes of Crystalia, including strategy guides, hero rankings, and team composition recommendations. An invaluable resource for every budding adventurer in Crystalia.",
+        "link": "./heroes",
+        "image": "./img/bg/hero_guide.png",
+        "display": "Yes",
+        "updated": "Last updated 2016/12/04"
+    }, {
+        "title": "Consul Guide",
+        "description": "A respository of useful information for dungeon masters to better understand the monsters, bosses and spawns found across Crystalia.",
+        "link": "./consul",
+        "image": "./img/bg/consul_guide.png",
+        "display": "Yes",
+        "updated": "Pending Release"
+    }, {
+        "title": "Arcade Mode",
+        "description": "A library of scanned cards for Super Dungeon Explore: Arcade mode. An invaluable resource for players that like to adventure solo or as co-op against an automated consul.",
+        "link": "",
+        "image": "./img/bg/arcade_mode.png",
+        "display": "No",
+        "updated": "Pending Release"
+    }, {
+        "title": "The game tiles of Crystalia",
+        "description": "From the soggy lowland of Glauerdoom Moor to the volcanic mountains of Dragonback Peaks, explore the many lands of Crystalia with these high resolution scans of all the currently released Super Dungeon Explore game tiles.",
+        "link": "",
+        "image": "./img/bg/game_tiles.png",
+        "display": "No",
+        "updated": "Pending Release"
+    }, {
+        "title": "The rules of the land",
+        "description": "A collection of rulebook downloads including the official Soda Pop rules, together with a collection of custom rulesets written by members of the community.",
+        "link": "./rules",
+        "image": "./img/bg/rules_guide.png",
+        "display": "Yes",
+        "updated": "Last updated 2016/12/06"
+    }, {
+        "title": "SDE Compendium Discussion",
+        "description": "Want to get involved? Have some material you want to share? Then swing by the forums and join the campfire discussion on the development of this community resource.",
+        "link": "http://community.sodapopminiatures.com/viewtopic.php?f=4&t=5730",
+        "image": "./img/bg/legends_guide.png",
+        "display": "Yes",
+        "updated": "Last updated 2016/12/04"
+    }, {
+        "title": "Legends Campaign",
+        "description": "A collection of resouces to support the Legends campaign mode of Super Dungeon Explore. After all, there is more to see in Crystalia than just dungeons and monsters.",
+        "link": "",
+        "image": "./img/bg/legends_guide.png",
+        "display": "No",
+        "updated": "Pending Release"
+    }, {
+        "title": "Treasures and gold",
+        "description": "A reference list of Crystalia's greatest treasures, pulled from many fearesome Booty chests and scanned for your viewing pleasure.",
+        "link": "",
+        "image": "./img/bg/treasure.png",
+        "display": "No",
+        "updated": "Pending Release"
+    }]
+}

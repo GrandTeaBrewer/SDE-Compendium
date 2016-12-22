@@ -1,0 +1,73 @@
+{
+    "npcString": [{
+        "ID": "N1",
+        "Name_Long": "Abnaur Buttonbjorn",
+        "Name_Formatted": "abnaur_buttonbjorn",
+        "Retail_Package": "Legends Kickstarter",
+        "Retail_Code": "LGK",
+        "Theme": "Special",
+        "Release_Code": "TBR",
+        "Release_Description": "To be Released",
+        "Char_Type": "",
+        "Affinity": "",
+        "Class_Code": "NPC",
+        "Image_Path": "img/logos/sde_logo_grey",
+        "Filter_Type": "otherFilter"
+    }, {
+        "ID": "N2",
+        "Name_Long": "Burke Baddhammer",
+        "Name_Formatted": "burke_baddhammer",
+        "Retail_Package": "Legends Kickstarter",
+        "Retail_Code": "LGK",
+        "Theme": "Special",
+        "Release_Code": "TBR",
+        "Release_Description": "To be Released",
+        "Char_Type": "",
+        "Affinity": "",
+        "Class_Code": "NPC",
+        "Image_Path": "img/logos/sde_logo_grey",
+        "Filter_Type": "otherFilter"
+    }, {
+        "ID": "N3",
+        "Name_Long": "Deordic the Drunk",
+        "Name_Formatted": "deordic_the_drunk",
+        "Retail_Package": "Legends Kickstarter",
+        "Retail_Code": "LGK",
+        "Theme": "Special",
+        "Release_Code": "TBR",
+        "Release_Description": "To be Released",
+        "Char_Type": "",
+        "Affinity": "",
+        "Class_Code": "NPC",
+        "Image_Path": "img/logos/sde_logo_grey",
+        "Filter_Type": "otherFilter"
+    }, {
+        "ID": "N4",
+        "Name_Long": "Nikolai Ten",
+        "Name_Formatted": "nikolai_ten",
+        "Retail_Package": "Legends Kickstarter",
+        "Retail_Code": "LGK",
+        "Theme": "Special",
+        "Release_Code": "TBR",
+        "Release_Description": "To be Released",
+        "Char_Type": "",
+        "Affinity": "",
+        "Class_Code": "NPC",
+        "Image_Path": "img/logos/sde_logo_grey",
+        "Filter_Type": "otherFilter"
+    }, {
+        "ID": "N5",
+        "Name_Long": "Prince Peridot",
+        "Name_Formatted": "prince_peridot",
+        "Retail_Package": "Legends Kickstarter",
+        "Retail_Code": "LGK",
+        "Theme": "Special",
+        "Release_Code": "TBR",
+        "Release_Description": "To be Released",
+        "Char_Type": "",
+        "Affinity": "",
+        "Class_Code": "NPC",
+        "Image_Path": "img/logos/sde_logo_grey",
+        "Filter_Type": "otherFilter"
+    }]
+}

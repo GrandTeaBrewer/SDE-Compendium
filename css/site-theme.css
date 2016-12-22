@@ -1,291 +1,176 @@
-/* Site theme */
+/* SDE Compendium - Site Theme by Topher
+================================================== */
 
-body {
-    background: #ffffff url("../img/bg/page-background.jpg") no-repeat fixed center center / cover;
-}
-.jumbotron, .transparentBG  {
-    background-color: #fffff;
-    background-color: rgba(255, 255, 255, 0.75);
-}
 
-/* gridder */
+/* Body - preloader
+================================================== */
 
-.img-responsive {
-    height: 25rem;
-}
-.gridder {
-    margin: 0;
-    padding: 0;
-    list-style-type: none
-}
-.gridder-list {
-    display: inline-block;
-    vertical-align: top
-}
-.gridder-show {
-    display: block;
-    float: left;
+
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+    /* change if the mask should have another color then white */
+    z-index: 9998;
+    /* makes sure it stays on top */
+    height: 100%;
     width: 100%;
-    position: relative;
-    background: #ffffff url("../img/icons/loading.svg") no-repeat center
-}
-.gridder-content {
-    display: none
-}
-.gridder-show .title {
-    color: #2196f3;
-    font-weight: 600;
-}
-.gridder-show {
-    padding: 20px;
-    background: #fffff none repeat scroll 0 0;;
-    background: rgba(255, 255, 255, 0.75) none repeat scroll 0 0;
-    margin-bottom: 1%
-}
-.gridder-navigation .disabled {
-    opacity: .5;
-}
-.gridder-list {
-    cursor: pointer;
-}
-.hasSelectedItem .gridder-list {
-    opacity: .5;
-}
-.hasSelectedItem .selectedItem {
-    opacity: 1;
-}
-.gridder-list *, .gridder-list *:before, .gridder-list *:after {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-}
-.gridder-list .item {
-    display: inline-block;
-    width: 20%;
-}
-.gridder-list .gridder-show {
-    float: left;
-    display: block;
-    width: 100%;
-    min-height: 100px;
-}
-.gridder-navigation {
-    padding-bottom: 10px;
-}
-.gridder-navigation a {
-    background: #2196F3 none repeat scroll 0 0;
-    color: #fff;
-    display: inline-block;
-    font-size: 24px;
-    padding: 0 10px;
-    text-decoration: none;
-    transition: all 0.3s ease-in-out 0s;
-    margin-right: 5px;
-}
-.gridder-navigation a:hover {
-    background: #1769AA none repeat scroll 0 0;
-    color: #fff;
-}
-.fa-remove::before, .fa-close::before, .fa-times::before {
-    content: "";
 }
 
-/* Page Structure */
+
+/* Body - Page
+================================================== */
+
+.navbar-full {
+    padding: 8px 16px;
+}
+
+.navbar-full-right {
+    float: right;
+    padding: 0px;
+    margin: 0px;
+}
 
 .sectionFilter {
     width: 100%;
 }
-.pageContent {
-    padding: 2rem 4rem 0;
+
+.pageContent, .headerContent {
+    padding: 4rem 4rem 0;
     color: #373a3c;
 }
 
-/* Header */
-
-.card-block {
-    color: #373a3c;
+.mainContent {
+    padding: 0 4rem;
 }
 
-/* Footer */
-
-footer> .container-fluid {
-    padding: 0 5rem;
+.float-xs-right {
+    float: right;
 }
 
-/* Buttons  */
+footer.page-footer .footer-copyright {
+    height: auto;
+    padding-top: 10px;
+    line-height: inherit;
+}
+
+option[value=""][disabled] {
+    display: none;
+}
+
+
+.text-xs-center .card img, .text-xs-center .img-fluid {
+    display: unset;
+}
+
+/* Body - Header
+================================================== */
+
+.jumbotron, .transparentBG {
+    background-color: #fffff;
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+.transparentBG {
+    padding-top: 1rem;
+}
+
+.navbar-brand {
+    padding-top: 2px;
+}
+
+.h2-bold {
+    font-weight: 400;
+}
+
+.pad-Mie-R10 {
+    padding-right: 10px;
+}
+
+.pad-Mie-L20 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.pad-Mie-T20 {
+		padding-top: 15px;
+}
+
+.pad-Mie-B20 {
+    padding-bottom: 20px;
+}
+
+.pad-Mie-B5 {
+    padding-bottom: 5px;
+}
+
+.fa.fa-angle-down {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+/* Body - Filters & Buttons
+================================================== */
 
 .btn-sm {
     height: 30px;
 }
 
 .btn-primary:focus {
-    background-color: #1769AA !important;
+    background-color: #1769AA;
 }
 
-/* Choice box */
-
-.img-thumbnail, .teamChoice {
-    border: 1px solid #fff;
-    box-shadow: inset 0 1px 3px rgba(0, 0, 0, .3)
-}
-.choiceHeader {
-    padding-top: 55px;
-    font-size: 60px;
-    color: #1769AA;
-}
-.checkLabel {
-    left: 11px;
-    margin-top: 0;
-    position: absolute;
-    top: 10px;
-}
-a.boxclose {
-    margin-top: 0;
-    margin-right: 0;
-    cursor: pointer;
-    color: #1769AA;
-    border: 1px solid #AEAEAE;
-    border-radius: 30px;
-    background: #fff;
-    font-size: 30px;
-    font-weight: bold;
-    line-height: 0;
-    padding: 15px 6px;
-    box-shadow: inset 0 1px 3px rgba(0, 0, 0, .3);
-    float:right;
-}
-.boxclose:before {
-    content: "×";
+.options .searchFilter {
+	 padding-bottom: 3px;
 }
 
-/* End choice box */
 
-/* Checkbox  */
+/* Body - Card (common)
+================================================== */
 
-[type="checkbox"]:not(:checked), [type="checkbox"]:checked {
-    position: absolute;
-    left: -9999px;
-}
-[type="checkbox"]:not(:checked)+ label, [type="checkbox"]:checked+ label {
-    position: absolute;
-    padding-left: 25px;
-    cursor: pointer;
+.img-unblock {
+    display: inline;
 }
 
-/* checkbox aspect */
-
-[type="checkbox"]:not(:checked)+ label:before, [type="checkbox"]:checked+ label:before {
-    content: '';
-    position: absolute;
-    left: 0;
-    width: 25px;
-    height: 25px;
-    border: 1px solid #aaaaaa;
-    background: #f8f8f8;
-    border-radius: 3px;
-    box-shadow: inset 0 1px 3px rgba(0, 0, 0, .3)
+.cardHome {
+    min-height: 36rem;
 }
 
-/* checked mark aspect */
+.card-header, .card-subtitle, .card-text:last-child {}
 
-[type="checkbox"]:not(:checked)+ label:after, [type="checkbox"]:checked+ label:after {
-    content: '✔';
-    position: absolute;
-    top: 3px;
-    left: 4px;
-    font-size: 25px;
-    line-height: 0.8;
-    color: #1769AA;
-    transition: all .2s;
+.card-block {
+    color: #373a3c;
+    width: 90%;
+    margin: 15px;
+    padding: 1rem;
 }
 
-/* checked mark aspect changes */
-
-[type="checkbox"]:not(:checked)+ label:after {
-    opacity: 0;
-    transform: scale(0);
-}
-[type="checkbox"]:checked+ label:after {
-    opacity: 1;
-    transform: scale(1);
+.card-meta {
+    margin-left: 10px;
+    margin-top: 10px;
 }
 
-/* disabled checkbox */
-
-[type="checkbox"]:disabled:not(:checked)+ label:before, [type="checkbox"]:disabled:checked+ label:before {
-    box-shadow: none;
-    border-color: #bbb;
-    background-color: #ddd;
-}
-[type="checkbox"]:disabled:checked+ label:after {
-    color: #999;
-}
-[type="checkbox"]:disabled+ label {
-    color: #aaa;
+.meta-left {
+    float: left;
 }
 
-/* accessibility */
-
-[type="checkbox"]:checked:focus+ label:before, [type="checkbox"]:not(:checked):focus+ label:before {
-    border: 1px dotted blue;
+.meta-right {
+    float: right;
+    margin: 6px;
+    text-align: right;
 }
 
-/* hover style just for information */
-
-label:hover:before {
-    border: 1px solid #4778d9!important;
+.card .imgIndex {
+    display: inline;
 }
-[type="checkbox"]:checked+ label+ img {
-    background-color: #00c851;
-}
-[type="checkbox"]:checked+ label+ img:hover {
-    border: 1px solid #CC0000;
-    background-color: #ff4444;
-}
-.option-set .dropdown-menu label {
-    font-size: 1.2rem;
-    padding-left: 33px;
-}
-.option-set .dropdown-menu ul li {
-    height: 34px;
-    padding-left: 10px;
-    padding-top: 3px;
-}
-.dropdown-menu {
-    width: 100%;
-}
-
-/* /.end checkbox formatting */
-
-
-/* Lightbox Gallery */
-
-.lg-image {
-    border: 3px solid #ffffff;
-}
-.lg-sub-html, .lg-toolbar {
-    background-color: #ffffff;
-    background-color: rgba(0, 0, 0, 0.6);
-}
-
-/* Page Images */
 
 .logo img {
     max-width: 250px;
     padding-bottom: 1rem;
-}
-
-/* char Images */
-
-.teamProfile {
-    width: 180px;
-    height: 180px;
-    float: left;
-    overflow: hidden;
-    position: relative;
-    text-align: center;
-    cursor: default;
-    margin: 5px;
 }
 
 .charProfile {
@@ -298,25 +183,335 @@ label:hover:before {
     cursor: default;
     margin: 5px;
 }
+
+.cardHeader {
+    padding-top: 15px;
+}
+
 .charPicture {
     width: 110px;
     height: 110px;
 }
+
+.charClass {
+    width: 30px;
+    height: 30px;
+}
+
+.charPairing {
+    width: 70px;
+    height: 70px;
+}
+
+.charCard {
+    padding: 0 10px 10px 10px;
+}
+
+.cardAffinity {
+    width: 25px;
+}
+
+.charStrat {
+    padding-bottom: 20px;
+}
+
 .img-thumbnail {
     border: 1px solid #1769AA;
 }
-
-/* charactere image hover */
 
 .img-thumbnail:hover {
     border: 5px solid #1769AA;
 }
 
-/* tooltip */
+.colioImg {
+    margin: 4rem;
+}
 
-[type="checkbox"]:checked+ .tooltip-inner {
+.cardProfile {
+    min-height: 26rem;
+    min-width: 150px;
+}
+
+.wrapperPortrait {
+    display: flex;
+    align-items: flex-end;
+    height: 200px;
+    padding: 4px;
+    border-radius: 0.25rem;
+}
+
+.bg_dragonback_peaks {
+    background: url('../img/theme/dragonback_peaks.jpg') center center / cover;
+}
+
+.bg_midnight_tower {
+    background: url('../img/theme/midnight_tower.jpg') center center / cover;
+}
+
+.bg_frostbyte_reach {
+    background: url('../img/theme/frostbyte_reach.jpg') center center / cover;
+}
+
+.bg_glauerdoom_moor {
+    background: url('../img/theme/glauerdoom_moor.jpg') center center / cover;
+}
+
+.bg_crystalia_castle {
+    background: url('../img/theme/crystalia_castle.jpg') center center / cover;
+}
+
+.bg_fae_wood {
+    background: url('../img/theme/fae_wood.jpg') center center / cover;
+}
+
+.bg_clockwork_cove {
+    background: url('../img/theme/midnight_tower.jpg') center center / cover;
+}
+
+.bg_wandering_monk_mountains {
+    background: url('../img/theme/midnight_tower.jpg') center center / cover;
+}
+
+.bg_celestial {
+    background: url('../img/theme/midnight_tower.jpg') center center / cover;
+}
+
+.bg_arcadian_dunes {
+    background: url('../img/theme/midnight_tower.jpg') center center / cover;
+}
+
+.bg_special {
+    background: url('../img/theme/special_2.jpg') center center / cover;
+}
+
+.overlayPortrait {
+    position: relative;
+    margin-bottom: 1rem;
+    margin-left: 8px;
+}
+
+.overlayPortrait H2 {
+    background-color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.75);
+    padding: 6px;
+}
+
+.imgPortrait {
+    padding: 4px;
+    border: 1px solid #1769aa;
+    border-radius: 0.25rem;
+}
+
+.cardPortrait {
+    padding: 15px 35px 0;
+}
+
+
+/* Footer
+================================================== */
+
+footer>.container-fluid {
+    padding: 0 5rem;
+}
+
+.dropdown-menu label {
+    font-size: 1.2rem;
+    padding-left: 38px;
+}
+
+.dropdown-menu ul li {
+    height: 34px;
+    padding-left: 10px;
+}
+
+.dropdown-menu {
+    width: 100%;
+    min-width: 225px;
+}
+
+.dropdown-menu ul {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.btn-floating::before {
+    border-radius: 0;
+}
+
+.btn-floating.btn-small, .btn-floating {
+    height: 36px;
+    line-height: 0;
+    width: 36px;
+}
+
+.btn-floating {
+    background-color: #a6c;
+    border-radius: 50%;
+    height: 37px;
+    margin: 2px;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    transition: all 0.3s ease 0s;
+    width: 37px;
+    z-index: 1;
+}
+
+.btn-fb {
+    background-color: #3b5998;
+}
+
+.btn-fb:focus, .btn-fb:hover {
+    background-color: #4264aa;
+}
+
+.btn-gplus {
+    background-color: #dd4b39;
+}
+
+.btn-gplus:focus, .btn-gplus:hover {
+    background-color: #e15f4f;
+}
+
+.btn-tw {
+    background-color: #55acee;
+}
+
+.btn-tw:focus, .btn-tw:hover {
+    background-color: #6cb7f0;
+}
+
+.btn-fb {
+    background-color: #3b5998;
+}
+
+.btn-pin {
+    background-color: #c61118;
+}
+
+.btn-pin:focus, .btn-pin:hover {
+    background-color: #dd131b;
+}
+
+.btn-git {
+    background-color: #4183c4;
+}
+
+.btn-git:focus, .btn-git:hover {
+    background-color: #5490ca;
+}
+
+.btn-floating, .btn-floating i {
+    color: #fff;
+    display: inline-block;
+    line-height: 28px;
+}
+
+.btn-floating {
+    cursor: pointer;
+}
+
+.btn .fa, .btn-floating {
+    vertical-align: middle;
+}
+
+.btn-floating.btn-small .fa, .btn-floating.btn-small {
+    font-size: 15px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+
+/* Colio - Basic Styles
+================================================== */
+
+.colio {
+    position: relative;
+    clear: both;
+}
+
+.colio-placement-inside {
+    overflow: hidden;
+}
+
+.colio-container {
+    padding: 60px 15px 0;
+}
+
+.colio-no-prev, .colio-no-next {
+    cursor: default;
+    opacity: 0.2;
+}
+
+
+/* Colio - navigation
+================================================== */
+
+.colio-navigation {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.colio-navigation a {
+    margin-right: 5px;
+}
+
+.colio-navend {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+a.btn-primary {
+    padding-top: 15px;
+}
+
+/* Colio - placement
+================================================== */
+
+.colio-placement-inside, .colio-placement-before {
+    margin-bottom: 20px;
+}
+
+.colio-placement-after {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.clearfix::before, .clearfix::after, .row::before, .row::after {
+    content: " ";
+    display: block;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+}
+
+
+/* Colio - Styling
+================================================== */
+
+.colio-expanded {
+    background: #fffff none repeat scroll 0 0;
+    background: rgba(255, 255, 255, 0.75) none repeat scroll 0 0;
+}
+
+.colio-next, .colio-prev, .colio-close {
+    background-color: #4285F4;
+    color: #fff;
+    padding: 8px 15px 15px;
+    font-size: 20px;
+}
+
+
+/* Tooltips - color overrides
+================================================== */
+
+[type="checkbox"]:checked+.tooltip-inner {
     background-color: #F30413;
 }
+
 .tooltip-inner {
     padding: 3px 8px;
     color: #fff;
@@ -324,12 +519,7 @@ label:hover:before {
     background-color: #1769AA;
     border-radius: .25rem
 }
-.tooltip.bs-tether-element-attached-left .tooltip-arrow, .tooltip-right .tooltip-arrow {
-    border-right-color: #1769AA
-}
-.tooltip.bs-tether-element-attached-top .tooltip-arrow, .tooltip-bottom .tooltip-arrow {
-    border-bottom-color: #1769AA
-}
-.tooltip.bs-tether-element-attached-right .tooltip-arrow, .tooltip.tooltip-left .tooltip-arrow {
-    border-left-color: #1769AA
+
+.tooltip.bs-tether-element-attached-top .tooltip-inner::before, .tooltip.tooltip-bottom .tooltip-inner::before {
+  border-bottom-color: #1769AA;
 }

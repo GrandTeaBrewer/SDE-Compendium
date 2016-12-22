@@ -1,0 +1,67 @@
+{
+    "rulesindex": [{
+        "title": "Forgotten King - Classic",
+        "description": "An updated ruleset for playing Super Dungeon Explore, often referred to as version 1.5",
+        "type": "official",
+        "link": "./rules/FK_Classic.pdf",
+        "image": "./img/bg/FK_Classic.png",
+        "display": "Yes",
+        "updated": "Last updated 2015/08/08"
+    }, {
+        "title": "Forgotten King - Arcade",
+        "description": "Assume control of a team of heroes and play cooperatively to overcome the automated Consul controlled by cards drawn from the arcade command deck.",
+        "type": "official",
+        "link": "./rules/FK_Arcade.pdf",
+        "image": "./img/bg/FK_Arcade.png",
+        "display": "Yes",
+        "updated": "Last updated 2015/08/08"
+    }, {
+        "title": "Forgotten King - FAQ",
+        "description": "An amendment to the Forgotten King rules that clarify a number of ambiguous items and irregularities.",
+        "type": "official",
+        "link": "./rules/SDE_FAQ_2015_04_15.pdf",
+        "image": "./img/bg/404.png",
+        "display": "Yes",
+        "updated": "Last updated 2015/04/15"
+    }, {
+        "title": "SDE PVP Arena",
+        "description": "Keep your Heroes in tip-top shape with Super Dungeon: PvP Arena! In PvP Arena two players, each take control of a mighty Warband to decide, once and for all, who is the mightiest Dungeon Explorer!",
+        "type": "official",
+        "link": "./rules/Classic_PVP_Arena.pdf",
+        "image": "./img/bg/arena_logo.png",
+        "display": "Yes",
+        "updated": "Last updated 2014/04/02"
+    }, {
+        "title": "SDE Original Rules",
+        "description": "The original rules that pit a brave team of heroes against the Consul player who controls all of the evil minions and monsters of Crystalia",
+        "type": "official",
+        "link": "./rules/SDE_Original_Edition.pdf",
+        "image": "./img/bg/SDE_Original_Edition.jpg",
+        "display": "Yes",
+        "updated": "Last updated 2013/08/23"
+    }, {
+        "title": "Super Dungeon 2.0",
+        "description": "A collection of rulebook downloads including the official Soda Pop rules, together with a collection of custom rulesets written by members of the community.",
+        "type": "official",
+        "link": "./rules/SDE_Original_Edition.pdf",
+        "image": "./img/bg/rules_guide.png",
+        "display": "No",
+        "updated": "Pending Release"
+    }, {
+        "title": "Super Dungeon Legends",
+        "description": "Want to get involved? Have some material you want to share? Then swing by the forums and join the campfire discussion on the development of this community resource.",
+        "type": "official",
+        "link": "http://community.sodapopminiatures.com/viewtopic.php?f=4&t=5730",
+        "image": "./rules/SDE_Original_Edition.pdf",
+        "display": "No",
+        "updated": "Last updated 2016/12/04"
+    }, {
+        "title": "Lootimeter Mode",
+        "description": "description",
+        "type": "community",
+        "link": "http://bit.ly/1WUQI5G",
+        "image": "./img/bg/Community_Lootimeter.png",
+        "display": "Yes",
+        "updated": "Live Google Document"
+    }]
+}
