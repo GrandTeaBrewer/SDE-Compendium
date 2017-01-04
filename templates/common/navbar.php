@@ -2,7 +2,7 @@
 <nav class="navbar navbar-fixed-top navbar-full navbar-light bg-faded ">
 
     <!--Navbar Brand-->
-    <a href="./" title="SDE Compendium - Home" class="navbar-brand">SDE Compendium</a>
+    <a href="./" title="SDE Compendium - Home" class="navbar-brand">SDE Compendium  Home</a>
     <!--Links-->
     <ul class="nav navbar-nav">
       <li class="nav-item btn-group">

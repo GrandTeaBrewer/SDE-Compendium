@@ -14,7 +14,7 @@
 
   <!-- Page Content-->
   <main id="mainContent" class="pageContent ">
-      <div class="jumbotron panel text-xs-center container-fluid">
+      <div class="panel text-xs-center container-fluid">
 
           <img src="img/logos/sde_logo.png" class="img-unblock img-fluid text-xs-center" alt="Super Dungeon Explore logo">
           <hr class="featurette-divider">
