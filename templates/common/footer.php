@@ -45,7 +45,7 @@
                 <h5 class="title">Like this site?</h5>
                 <p>Then share and tell others about the SDE Compendium via social media:</p>
 
-                <ul class="navbar-full-right">
+                <ul class="navbar-full-left">
                   <li>
                     <!--Facebook-->
                     <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//sde.invarti.com" title="Like this site on Facebook" class="btn-floating btn-small btn-fb waves-effect waves-light"><i class="fa fa-facebook"></i>&nbsp;</a>
