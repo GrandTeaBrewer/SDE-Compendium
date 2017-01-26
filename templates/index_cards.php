@@ -16,7 +16,7 @@ foreach ($filtered_json as $index => $item) {
         echo '<div class="col-md-4">
                 <div class="card card-cascade cardHome">
                   <div class="top-unit">
-                    <a href="' .$item["link"] .'" title="' .$item["title"] . '">
+                    <a href="' .$item["link"] .'" title="' .$item["title"] . '" onClick="ga(\'send\', \'event\', \'link\', \'view\', \''. $item["title"] .'\')">
                       <p class="card-text card-meta"><small class="text-muted ">' .$item["updated"] .'</small></p>
                       <div class="text-xs-center"><img class="imgIndex img-fluid" src="' .$item["image"] .'" alt="' .$item["title"] .'"></div>
                       <div class="card-block">

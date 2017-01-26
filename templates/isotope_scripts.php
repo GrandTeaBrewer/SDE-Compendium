@@ -73,6 +73,9 @@
                                     data: [p1, p2, p3, p4, p5, p6]
                                 }]
                             };
+
+                            var charname = as[0].Name_Long;
+
                             var option = {
                                 responsive: true,
                             };
@@ -104,6 +107,8 @@
                 $(".colio-item").css({
                     "opacity": "1"
                 });
+                // GA Event
+                ga('send', 'event', 'colio-collapse', 'view', 'generic');
             },
             onContent: function(content) {
                 window.setTimeout(function() {
@@ -197,6 +202,10 @@
                 filter: function() {
                     var filterContents = filterStuff($(this));
                     //        console.log(filterContents);
+
+                    // GA Event
+                    ga('send', 'event', 'colio-filter', 'terms', filterContents);
+
                     return filterContents;
                 }
             }).trigger('colio', 'excludeHidden');
@@ -209,6 +218,10 @@
                 filter: function() {
                     var filterContents = filterStuff($(this));
                     // console.log(filterContents);
+
+                    // GA Event
+                    ga('send', 'event', 'colio-filter', 'terms', filterContents);
+
                     return filterContents;
                 }
             }).trigger('colio', 'excludeHidden');

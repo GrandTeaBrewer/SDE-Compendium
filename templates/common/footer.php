@@ -48,13 +48,13 @@
                 <ul class="navbar-full-left">
                   <li>
                     <!--Facebook-->
-                    <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//sde.invarti.com" title="Like this site on Facebook" class="btn-floating btn-small btn-fb waves-effect waves-light"><i class="fa fa-facebook"></i>&nbsp;</a>
+                    <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//sde.invarti.com" onClick="ga('send', 'event', 'link', 'social', 'Facebook footer')" title="Like this site on Facebook" class="btn-floating btn-small btn-fb waves-effect waves-light"><i class="fa fa-facebook"></i>&nbsp;</a>
                     <!--Twitter-->
-                    <a href="https://twitter.com/home?status=Check%20out%20http%3A//sde.invarti.com,%20the%20most%20complete%20source%20of%20Super%20Dungeon%20Explore%20reference%20material%20on%20the%20web.%20%23ninjadiv%20%23SuperDungeon" title="Share this site on Twitter" class="btn-floating btn-small btn-tw waves-effect waves-light"><i class="fa fa-twitter"></i>&nbsp;</a>
+                    <a href="https://twitter.com/home?status=Check%20out%20http%3A//sde.invarti.com,%20the%20most%20complete%20source%20of%20Super%20Dungeon%20Explore%20reference%20material%20on%20the%20web.%20%23ninjadiv%20%23SuperDungeon" onClick="ga('send', 'event', 'link', 'social', 'Twitter footer')" title="Share this site on Twitter" class="btn-floating btn-small btn-tw waves-effect waves-light"><i class="fa fa-twitter"></i>&nbsp;</a>
                     <!--Google +-->
-                    <a href="https://plus.google.com/share?url=http%3A//sde.invarti.com" title="Share this site on Google Plus" class="btn-floating btn-small btn-gplus waves-effect waves-light"><i class="fa fa-google-plus"></i>&nbsp;</a>
+                    <a href="https://plus.google.com/share?url=http%3A//sde.invarti.com" onClick="ga('send', 'event', 'link', 'social', 'Google Plus footer')" title="Share this site on Google Plus" class="btn-floating btn-small btn-gplus waves-effect waves-light"><i class="fa fa-google-plus"></i>&nbsp;</a>
                     <!--Pinterest-->
-                    <a href="https://pinterest.com/pin/create/button/?url=http%3A//sde.invarti.com/&media=http%3A//sde.invarti.com/img/bg/sde-compendium-pinterest.png&description=A%20living%20library%20of%20Super%20Dungeon%20Explore%20character%20cards,%20hero%20guides,%20and%20reference%20material,%20including%20every%20retail%20release%20by%20Soda%20Pop%20Miniatures" title="Share this site on Pinterest" class="btn-floating btn-small btn-pin waves-effect waves-light"><i class="fa fa-pinterest"></i>&nbsp;</a>
+                    <a href="https://pinterest.com/pin/create/button/?url=http%3A//sde.invarti.com/&media=http%3A//sde.invarti.com/img/bg/sde-compendium-pinterest.png&description=A%20living%20library%20of%20Super%20Dungeon%20Explore%20character%20cards,%20hero%20guides,%20and%20reference%20material,%20including%20every%20retail%20release%20by%20Soda%20Pop%20Miniatures" onClick="ga('send', 'event', 'link', 'social', 'Pinterest footer')" title="Share this site on Pinterest" class="btn-floating btn-small btn-pin waves-effect waves-light"><i class="fa fa-pinterest"></i>&nbsp;</a>
                   </li>
                 </ul>
 
@@ -96,20 +96,3 @@
 <script src="js/bootstrap.min.js" type="text/javascript"></script>
 <!-- MDB core JavaScript -->
 <script src="js/mdb.min.js" type="text/javascript"></script>
-
-
-
-<!-- Google Analytics
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-78045606-2', 'auto');
-  ga('send', 'pageview');
-
-</script>
-
-
--->

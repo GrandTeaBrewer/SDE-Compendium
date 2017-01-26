@@ -23,9 +23,9 @@
     }, {
         "title": "Arcade Mode",
         "description": "A library of scanned cards for Super Dungeon Explore: Arcade mode. An invaluable resource for players that like to adventure solo or as co-op against an automated consul.",
-        "link": "",
+        "link": "./arcade",
         "image": "./img/bg/arcade_mode.png",
-        "display": "No",
+        "display": "Yes",
         "updated": "Pending Release"
     }, {
         "title": "The game tiles of Crystalia",
@@ -45,7 +45,7 @@
         "title": "SDE Compendium Discussion",
         "description": "Want to get involved? Have some material you want to share? Then swing by the forums and join the campfire discussion on the development of this community resource.",
         "link": "http://community.sodapopminiatures.com/viewtopic.php?f=4&t=5730",
-        "image": "./img/bg/legends_guide.png",
+        "image": "./img/bg/community.png",
         "display": "Yes",
         "updated": "Last updated 2016/12/04"
     }, {

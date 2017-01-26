@@ -186,7 +186,7 @@ foreach ($filtered_theme as $index => $item) {
           <div class="col-md-3">
               <div class="card card-cascade cardProfile">
                   <div class="top-unit">
-                      <a href="./heroes" title="' . $spawn["Name_Long"] .'">
+                      <a href="./heroes" title="' . $spawn["Name_Long"] .'" onClick="ga(\'send\', \'event\', \'colio-expand\', \'view\', \''. $spawn["Name_Long"] .'\')">
                           <div class="cardPortrait text-xs-center">
                             <img class="imgIndex imgPortrait" src="'. $spawn["Image_Path"] .'_icon.jpg" alt="' . $spawn["Name_Long"] .'">
                           </div>

@@ -453,13 +453,13 @@
         "Name_Formatted": "iron_golem",
         "Retail_Package": "Iron Golem Single Miniature",
         "Retail_Code": "SIN",
-        "Theme": "Special",
+        "Theme": "Fae Wood",
         "Release_Code": "RTR",
         "Release_Description": "Released to Retail",
-        "Char_Type": "",
-        "Affinity": "",
-        "Class_Code": "Dark Hero",
+        "Char_Type": "Construct Mini-Boss",
+        "Affinity": "Sapphire",
+        "Class_Code": "Mini-Boss",
         "Image_Path": "img/minibosses/iron_golem",
-        "Filter_Type": "heroFilter"
+        "Filter_Type": "minibossFilter"
     }]
 }

@@ -19,7 +19,7 @@ foreach ($filtered_json as $index => $item) {
         $official .= '<div class="col-md-4">
                 <div class="card card-cascade cardHome">
                   <div class="top-unit">
-                    <a href="' .$item["link"] .'" title="' .$item["title"] . '">
+                    <a href="' .$item["link"] .'" title="' .$item["title"] . '" onClick="ga(\'send\', \'event\', \'resource\', \'view\', \''. $item["title"] .'\')">
                       <p class="card-text card-meta"><small class="text-muted ">' .$item["updated"] .'</small></p>
                       <div class="text-xs-center"><img class="imgIndex img-fluid" src="' .$item["image"] .'" alt="' .$item["title"] .'"></div>
                       <div class="card-block">
@@ -46,7 +46,7 @@ foreach ($filtered_json_2 as $index2 => $item2) {
         $community .= '<div class="col-md-4">
                 <div class="card card-cascade cardHome">
                   <div class="top-unit">
-                    <a href="' .$item2["link"] .'" title="' .$item2["title"] . '">
+                    <a href="' .$item2["link"] .'" title="' .$item2["title"] . '" onClick="ga(\'send\', \'event\', \'resource\', \'view\', \''. $item2["title"] .'\')">
                       <p class="card-text card-meta"><small class="text-muted ">' .$item2["updated"] .'</small></p>
                       <div class="text-xs-center"><img class="imgIndex img-fluid" src="' .$item2["image"] .'" alt="' .$item2["title"] .'"></div>
                       <div class="card-block">

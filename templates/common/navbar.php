@@ -11,6 +11,7 @@
                 <a href="./library" title="SDE Compendium Card Library" class="dropdown-item">Card Library</a>
                 <a href="./heroes" title="SDE Compendium Heroes Guide" class="dropdown-item">Hero Guide</a>
                 <a href="./consul" title="SDE Compendium Consul Guide" class="dropdown-item">Consul Guide</a>
+
                 <a href="./rules" title="SDE Compendium Game Rules" class="dropdown-item">Game Rules</a>
                 <a href="http://community.sodapopminiatures.com/viewtopic.php?f=4&t=5730" title="SDE Compendium Discussion Thread" class="dropdown-item">Discussion Thread</a>
             </div>
@@ -21,13 +22,13 @@
     <ul class="navbar-full-right">
       <li>
         <!--Facebook-->
-        <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//sde.invarti.com" title="Like this site on Facebook" class="btn-floating btn-small btn-fb waves-effect waves-light"><i class="fa fa-facebook"></i>&nbsp;</a>
+        <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//sde.invarti.com" onClick="ga('send', 'event', 'link', 'social', 'Facebook navbar')" title="Like this site on Facebook" class="btn-floating btn-small btn-fb waves-effect waves-light"><i class="fa fa-facebook"></i>&nbsp;</a>
         <!--Twitter-->
-        <a href="https://twitter.com/home?status=Check%20out%20http%3A//sde.invarti.com,%20the%20most%20complete%20source%20of%20Super%20Dungeon%20Explore%20reference%20material%20on%20the%20web.%20%23ninjadiv%20%23SuperDungeon" title="Share this site on Twitter" class="btn-floating btn-small btn-tw waves-effect waves-light"><i class="fa fa-twitter"></i>&nbsp;</a>
+        <a href="https://twitter.com/home?status=Check%20out%20http%3A//sde.invarti.com,%20the%20most%20complete%20source%20of%20Super%20Dungeon%20Explore%20reference%20material%20on%20the%20web.%20%23ninjadiv%20%23SuperDungeon" onClick="ga('send', 'event', 'link', 'social', 'Twitter navbar')" title="Share this site on Twitter" class="btn-floating btn-small btn-tw waves-effect waves-light"><i class="fa fa-twitter"></i>&nbsp;</a>
         <!--Google +-->
-        <a href="https://plus.google.com/share?url=http%3A//sde.invarti.com" title="Share this site on Google Plus" class="btn-floating btn-small btn-gplus waves-effect waves-light"><i class="fa fa-google-plus"></i>&nbsp;</a>
+        <a href="https://plus.google.com/share?url=http%3A//sde.invarti.com" onClick="ga('send', 'event', 'link', 'social', 'Google Plus navbar')" title="Share this site on Google Plus" class="btn-floating btn-small btn-gplus waves-effect waves-light"><i class="fa fa-google-plus"></i>&nbsp;</a>
         <!--Pinterest-->
-        <a href="https://pinterest.com/pin/create/button/?url=http%3A//sde.invarti.com/&media=http%3A//sde.invarti.com/img/bg/sde-compendium-pinterest.png&description=A%20living%20library%20of%20Super%20Dungeon%20Explore%20character%20cards,%20hero%20guides,%20and%20reference%20material,%20including%20every%20retail%20release%20by%20Soda%20Pop%20Miniatures" title="Share this site on Pinterest" class="btn-floating btn-small btn-pin waves-effect waves-light"><i class="fa fa-pinterest"></i>&nbsp;</a>
+        <a href="https://pinterest.com/pin/create/button/?url=http%3A//sde.invarti.com/&media=http%3A//sde.invarti.com/img/bg/sde-compendium-pinterest.png&description=A%20living%20library%20of%20Super%20Dungeon%20Explore%20character%20cards,%20hero%20guides,%20and%20reference%20material,%20including%20every%20retail%20release%20by%20Soda%20Pop%20Miniatures" onClick="ga('send', 'event', 'link', 'social', 'Pinterest navbar')" title="Share this site on Pinterest" class="btn-floating btn-small btn-pin waves-effect waves-light"><i class="fa fa-pinterest"></i>&nbsp;</a>
       </li>
     </ul>
 
