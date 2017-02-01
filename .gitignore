@@ -1,9 +1,12 @@
 
-
 # Commercially licensed plugins
 js/mdb.min.js
 js/colio.in.js
 
+# Development files
+cardcreator.php
+img/cardcreator/
+js/cardcreator.js
 
 # Windows image file caches
 Thumbs.db

@@ -5,21 +5,21 @@
         "link": "./library",
         "image": "./img/bg/card_library.png",
         "display": "Yes",
-        "updated": "Last updated 2016/12/04"
+        "updated": "Last updated 2017/02/01"
     }, {
         "title": "Hero Guide",
         "description": "A resource dedicated to understanding the heroes of Crystalia, including strategy guides, hero rankings, and team composition recommendations. An invaluable resource for every budding adventurer in Crystalia.",
         "link": "./heroes",
         "image": "./img/bg/hero_guide.png",
         "display": "Yes",
-        "updated": "Last updated 2016/12/04"
+        "updated": "Last updated 2017/02/01"
     }, {
         "title": "Consul Guide",
         "description": "A respository of useful information for dungeon masters to better understand the monsters, bosses and spawns found across Crystalia.",
         "link": "./consul",
         "image": "./img/bg/consul_guide.png",
         "display": "Yes",
-        "updated": "Pending Release"
+        "updated": "2017/02/01"
     }, {
         "title": "Arcade Mode",
         "description": "A library of scanned cards for Super Dungeon Explore: Arcade mode. An invaluable resource for players that like to adventure solo or as co-op against an automated consul.",
@@ -40,7 +40,7 @@
         "link": "./rules",
         "image": "./img/bg/rules_guide.png",
         "display": "Yes",
-        "updated": "Last updated 2016/12/06"
+        "updated": "Last updated 2017/02/01"
     }, {
         "title": "SDE Compendium Discussion",
         "description": "Want to get involved? Have some material you want to share? Then swing by the forums and join the campfire discussion on the development of this community resource.",

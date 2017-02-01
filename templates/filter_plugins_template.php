@@ -4,6 +4,55 @@
 
 $explainText = 'Set the filters then click on the character icon to view the character card';
 
+
+$cardType = '
+<div class="col-md-3 ui-group filters">
+    <div class="option-set" data-group="themeFilter">
+        <select id="themeFilter" multiple class="mdb-select chosen-select">
+            <option value="hero">Hero</option>
+    				<option value="monster">Monster</option>
+        </select>
+        <label for="themeFilter">Card Type</label>
+    </div>
+</div>';
+
+$cardTheme = '
+<div class="col-md-3 ui-group filters">
+    <div class="option-set" data-group="themeFilter">
+        <select id="themeFilter" multiple class="mdb-select chosen-select">
+            <option value="fae_wood.jpg">Fae Wood</option>
+            <option value="netherstorm.png">Netherstorm</option>
+            <option value="roxors-cavern.png">Caverns of Roxor</option>
+            <option value="nas.png">Ninja All-Stars</option>
+            <option value="arctic.jpg">Arctic</option>
+            <option value="castle_room.jpg">Castle Room</option>
+            <option value="city_street.jpg">City Street</option>
+            <option value="desert.jpg">Desert</option>
+            <option value="dragons_hoard.jpg">Dragon Hoard</option>
+            <option value="dungeon.jpg">Dungeon</option>
+            <option value="fantasy_tower.jpg">Fantasy Tower</option>
+            <option value="forrest_stream.jpg">Forrest Stream</option>
+            <option value="icy_throne.jpg">Icy Throne</option>
+            <option value="kings_throne.jpg">King\'sThrone Room</option>
+            <option value="kitchen.jpg">Kitchen</option>
+            <option value="lonely_tower.jpg">Lonely Tower</option>
+            <option value="market.jpg">Market</option>
+            <option value="meadow.jpg">Meadow</option>
+            <option value="minotaurs_throne_room.jpg">Minotaur\'s Throne Room</option>
+            <option value="f8ebe365c206a57065d4970fb91b5d78.jpg">Pirate Cove</option>
+            <option value="prison_tower.jpg">Prison Tower</option>
+            <option value="queens_throne_room.jpg">Queen\'s Throne Room</option>
+            <option value="ruins.jpg">Ruins</option>
+            <option value="swamp.jpg">Swamp</option>
+            <option value="temple.jpg">Temple</option>
+            <option value="tundra.jpg">Tundra</option>
+            <option value="valley.jpg">Valley</option>
+        </select>
+        <label for="themeFilter">Card Type</label>
+    </div>
+</div>';
+
+
 $themeFilter = '
 <div class="col-md-3 ui-group filters">
     <div class="option-set" data-group="themeFilter">

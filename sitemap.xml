@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>http://sde.invarti.com/</loc>
+</url>
+<url>
+  <loc>http://sde.invarti.com/library</loc>
+</url>
+<url>
+  <loc>http://sde.invarti.com/heroes</loc>
+</url>
+<url>
+  <loc>http://sde.invarti.com/consul</loc>
+</url>
+<url>
+  <loc>http://sde.invarti.com/rules</loc>
+</url>
+<url>
+  <loc>http://sde.invarti.com/rules/FK_Classic.pdf</loc>
+  <lastmod>2015-08-08T00:05:40+00:00</lastmod>
+</url>
+<url>
+  <loc>http://sde.invarti.com/rules/FK_Arcade.pdf</loc>
+  <lastmod>2016-11-01T21:33:44+00:00</lastmod>
+</url>
+<url>
+  <loc>http://sde.invarti.com/rules/SDE_FAQ_2015_04_15.pdf</loc>
+  <lastmod>2015-04-17T16:20:38+00:00</lastmod>
+</url>
+<url>
+  <loc>http://sde.invarti.com/rules/Classic_PVP_Arena.pdf</loc>
+  <lastmod>2014-04-01T19:09:40+00:00</lastmod>
+</url>
+<url>
+  <loc>http://sde.invarti.com/rules/SDE_Original_Edition.pdf</loc>
+  <lastmod>2013-08-23T01:43:42+00:00</lastmod>
+</url>
+</urlset>

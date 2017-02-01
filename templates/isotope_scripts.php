@@ -34,7 +34,7 @@
 
                 if (pageType == 'colio-hero-graph') {
 
-                var url = 'http://127.0.0.1/sde-compendium/data/';
+                var url = 'data/';
                 var query = 'heroes.json';
 
                     $.getJSON(url + query, function(data) {
@@ -108,7 +108,7 @@
                     "opacity": "1"
                 });
                 // GA Event
-                ga('send', 'event', 'colio-collapse', 'view', 'generic');
+                // ga('send', 'event', 'Generic', 'Colio-collapse', '');
             },
             onContent: function(content) {
                 window.setTimeout(function() {
