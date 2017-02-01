@@ -27,17 +27,10 @@ With the exception of MDB and Colio, the other necessary dependencies are stored
 
 To use the free version of MDB change the following two files:
 
-Change around line 15 of templates/common/page_head.php to the following:
+Change around line 15 of templates/common/page_head.php to reference the following: https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.3.0/css/mdb.min.css
 
-.. code:: bash
-    <!-- Material Design Bootstrap MDB -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.3.0/css/mdb.min.css" type="text/css" rel="stylesheet">
+Change around line 95 of templates/common/footer.php to reference the following: https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.3.0/js/mdb.min.js
 
-Change around line 95 of templates/common/footer.php to the following:
-
-.. code:: bash
-    <!-- MDB core JavaScript -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.3.0/js/mdb.min.js"></script>
 
 
 ##License
