@@ -2,6 +2,7 @@
 # Commercially licensed plugins
 js/mdb.min.js
 js/colio.in.js
+css/mdb.min.css
 
 # Development files
 cardcreator.php
