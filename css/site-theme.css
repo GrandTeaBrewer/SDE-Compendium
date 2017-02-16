@@ -188,6 +188,13 @@ option[value=""][disabled] {
     margin: 5px;
 }
 
+.productProfile {
+    width: 15rem;
+    margin: 5px;
+    cursor: default;
+
+}
+
 .cardHeader {
     padding-top: 15px;
 }

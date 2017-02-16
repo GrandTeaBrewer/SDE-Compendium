@@ -22,9 +22,9 @@
         <?php include("templates/common/navbar.php");?>
 
         <div class="jumbotron">
-            <h1 class="h1-responsive text-xs-center">Consul Guide</h1>
+            <h1 class="h1-responsive text-xs-center">Crystalia game tiles</h1>
             <hr class="featurette-divider" />
-            <p class="text-xs-center">Select one of the many lands in Crystalia to reveal the evil that lurks in that area. Clicking on one theme region will automatically close all of the other sections.</p>
+            <p class="text-xs-center">Select one of the many lands in Crystalia to reveal the landscape native to that area of the land. Clicking on one theme region will automatically close all of the other sections.</p>
         </div>
     </header>
 
@@ -34,7 +34,7 @@
 
               <div class="accordion" id="accordion" role="tablist" aria-multiselectable="false">
 
-                <?php include("templates/index_consul.php");?>
+                <?php include("templates/index_game_tiles.php");?>
 
             </div>
 

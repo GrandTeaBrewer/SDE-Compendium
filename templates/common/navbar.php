@@ -10,9 +10,12 @@
             <div class="dropdown-menu">
                 <a href="./library" title="SDE Compendium Card Library" class="dropdown-item">Card Library</a>
                 <a href="./heroes" title="SDE Compendium Heroes Guide" class="dropdown-item">Hero Guide</a>
-                <a href="./consul" title="SDE Compendium Consul Guide" class="dropdown-item">Consul Guide</a>
-
+      <!--          <a href="./consul" title="SDE Compendium Consul Guide" class="dropdown-item">Consul Guide</a> -->
+      <!--          <a href="./arcade" title="SDE Compendium Arcade Guide" class="dropdown-item">Arcade Guide</a> -->
+                <a href="./game_tiles" title="SDE Compendium Game Tiles of Crystalia" class="dropdown-item">Game Tiles</a>
+                <a href="./products" title="Complete SDE Product List" class="dropdown-item">Full Product List</a>
                 <a href="./rules" title="SDE Compendium Game Rules" class="dropdown-item">Game Rules</a>
+                <a href="http://rpg.medicationforall.com/sdecardcreator/" title="SDE Card Builder" class="dropdown-item">Card Builder</a>
                 <a href="http://community.sodapopminiatures.com/viewtopic.php?f=4&t=5730" title="SDE Compendium Discussion Thread" class="dropdown-item">Discussion Thread</a>
             </div>
         </li>

@@ -6,6 +6,8 @@ css/mdb.min.css
 
 # Development files
 cardcreator.php
+consul.php
+arcade.php
 img/cardcreator/
 js/cardcreator.js
 

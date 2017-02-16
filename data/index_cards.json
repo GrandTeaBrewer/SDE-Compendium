@@ -5,7 +5,7 @@
         "link": "./library",
         "image": "./img/bg/card_library.png",
         "display": "Yes",
-        "updated": "Last updated 2017/02/01"
+        "updated": "Last Updated 2017/02/08"
     }, {
         "title": "Hero Guide",
         "description": "A resource dedicated to understanding the heroes of Crystalia, including strategy guides, hero rankings, and team composition recommendations. An invaluable resource for every budding adventurer in Crystalia.",
@@ -18,23 +18,37 @@
         "description": "A respository of useful information for dungeon masters to better understand the monsters, bosses and spawns found across Crystalia.",
         "link": "./consul",
         "image": "./img/bg/consul_guide.png",
-        "display": "Yes",
-        "updated": "2017/02/01"
+        "display": "No",
+        "updated": "Last Updated 2017/02/08"
     }, {
         "title": "Arcade Mode",
         "description": "A library of scanned cards for Super Dungeon Explore: Arcade mode. An invaluable resource for players that like to adventure solo or as co-op against an automated consul.",
         "link": "./arcade",
         "image": "./img/bg/arcade_mode.png",
-        "display": "Yes",
-        "updated": "Pending Release"
-    }, {
-        "title": "The game tiles of Crystalia",
-        "description": "From the soggy lowland of Glauerdoom Moor to the volcanic mountains of Dragonback Peaks, explore the many lands of Crystalia with these high resolution scans of all the currently released Super Dungeon Explore game tiles.",
-        "link": "",
-        "image": "./img/bg/game_tiles.png",
         "display": "No",
         "updated": "Pending Release"
     }, {
+        "title": "Complete SDE Product List",
+        "description": "A complete list of all Super Dungeon Explore products released to retail. Use this to plan your future purchases or to admire the size of your collection.",
+        "link": "./products",
+        "image": "./img/bg/products.png",
+        "display": "Yes",
+        "updated": "Pending Release"
+    },  {
+        "title": "The game tiles of Crystalia",
+        "description": "From the soggy lowland of Glauerdoom Moor to the volcanic mountains of Dragonback Peaks, explore the many lands of Crystalia with these high resolution scans of all the currently released Super Dungeon Explore game tiles.",
+        "link": "./game_tiles",
+        "image": "./img/bg/crystalia_map.png",
+        "display": "Yes",
+        "updated": "Last Updated 2017/02/08"
+    }, {
+        "title": "SDE Card Builder",
+        "description": "A wonderful card creator tool designed by community member James Adam. Use this online tool to build custom characters, treasure, explore cards and more!",
+        "link": "http://rpg.medicationforall.com/sdecardcreator/",
+        "image": "./img/bg/card_builder.png",
+        "display": "Yes",
+        "updated": "External Link"
+    },{
         "title": "The rules of the land",
         "description": "A collection of rulebook downloads including the official Soda Pop rules, together with a collection of custom rulesets written by members of the community.",
         "link": "./rules",
@@ -45,9 +59,9 @@
         "title": "SDE Compendium Discussion",
         "description": "Want to get involved? Have some material you want to share? Then swing by the forums and join the campfire discussion on the development of this community resource.",
         "link": "http://community.sodapopminiatures.com/viewtopic.php?f=4&t=5730",
-        "image": "./img/bg/community.png",
+        "image": "./img/bg/parchment.png",
         "display": "Yes",
-        "updated": "Last updated 2016/12/04"
+        "updated": "External Link"
     }, {
         "title": "Legends Campaign",
         "description": "A collection of resouces to support the Legends campaign mode of Super Dungeon Explore. After all, there is more to see in Crystalia than just dungeons and monsters.",

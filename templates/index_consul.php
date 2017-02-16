@@ -1,7 +1,7 @@
 
 <?PHP
 
-$json = json_decode(file_get_contents("./data/theme.json"), true);
+$json = json_decode(file_get_contents("./data/game_tiles.json"), true);
 
 $filtered_theme = array_filter($json["themeList"], function($v) {
   // only show themes with released content

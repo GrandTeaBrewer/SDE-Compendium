@@ -56,7 +56,7 @@
 			echo '<article><hr class="featurette-divider" /><h2 class="h2-responsive h2-bold">'.$index. '</h2>';
 			echo '<hr class="featurette-divider" /><section id="'. $card_type . '" class="colio colioTarget">';
 
-			include( "templates/card_library_template.php");
+			include( "templates/index_library.php");
 
 			echo '</section></article>'; }
 			unset($card_type); ?>

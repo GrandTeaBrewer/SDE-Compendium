@@ -40,10 +40,10 @@
   </header>
 
   <main id="mainContent" data-sdetype="colio-hero-graph" class="pageContent container-fluid">
-      <div id="charFilter" class="colio colioTarget row ">
+      <div id="charFilter" class="colio colioTarget row">
 
           <!-- Fetch Content -->
-          <?php include("templates/hero_guide.php");?>
+          <?php include("templates/index_heroes.php");?>
 
       </div>
   </main>

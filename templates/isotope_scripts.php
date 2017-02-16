@@ -8,12 +8,13 @@
 <script src="js/imagesloaded.js" type="text/javascript"></script>
 
 <script type="text/javascript">
+
     // document.ready shorhand
     $(function() {
         // Initialise Isotope
         var isoOptions = {
             layoutMode: 'fitRows',
-            itemSelector: '.charProfile',
+            itemSelector: '.isotopeTrigger',
             animationOptions: {
                 duration: 750,
                 easing: 'linear',

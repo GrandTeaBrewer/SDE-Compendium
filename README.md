@@ -27,9 +27,11 @@ With the exception of MDB and Colio, the other necessary dependencies are stored
 
 To use the free version of MDB change the following two files:
 
-Change around line 15 of templates/common/page_head.php to reference the following: https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.3.0/css/mdb.min.css
+Change around line 15 of templates/common/page_head.php to reference the following:
+- https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.3.0/css/mdb.min.css
 
-Change around line 95 of templates/common/footer.php to reference the following: https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.3.0/js/mdb.min.js
+Change around line 95 of templates/common/footer.php to reference the following:
+- https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.3.0/js/mdb.min.js
 
 
 

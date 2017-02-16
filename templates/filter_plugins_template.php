@@ -2,8 +2,9 @@
 
 <?PHP
 
-$explainText = 'Set the filters then click on the character icon to view the character card';
+$explainText = 'Set the filters then click on the character icon to view the character card.';
 
+$explainText2 = 'Set the filters then click on the product icon to view more information.';
 
 $cardType = '
 <div class="col-md-3 ui-group filters">
@@ -81,6 +82,7 @@ $releaseFilter = '
           <option value="" disabled >Select some options</option>
           <option value=".TBR">Show Unreleased</option>
           <option value=".RTR">Show Released</option>
+          <option value=".OOP">Out of Print</option>
         </select>
         <label for="releaseFilter">Retail Status</label>
     </div>
