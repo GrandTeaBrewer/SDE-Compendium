@@ -189,14 +189,24 @@ option[value=""][disabled] {
 }
 
 .productProfile {
-    width: 15rem;
+    width: 250px;
+    height: 350px;
     margin: 5px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
     cursor: default;
-
+    margin: 5px;
 }
 
 .cardHeader {
     padding-top: 15px;
+}
+
+.cardProfile {
+    min-height: 26rem;
+    min-width: 150px;
 }
 
 .charPicture {
@@ -236,11 +246,6 @@ option[value=""][disabled] {
 
 .colioImg {
     margin: 4rem;
-}
-
-.cardProfile {
-    min-height: 26rem;
-    min-width: 150px;
 }
 
 .wrapperPortrait {

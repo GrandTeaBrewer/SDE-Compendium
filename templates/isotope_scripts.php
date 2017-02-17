@@ -155,7 +155,7 @@
             var characterCard = $(htmlItem).find('a.colioTmp');
             var name = $(characterCard).prop('text');
             // console.log(htmlItem);
-            var classes = $(characterCard).closest('.charProfile').prop('class').trim().split(' ');
+            var classes = $(characterCard).closest('.isotopeTrigger').prop('class').trim().split(' ');
             var classMatch = false;
             // match on the name, and check the filter classes.
             if (name.match(new RegExp($('#filters #searchFilter').val(), 'gi')) || $('#filters #searchFilter').val() === '') {

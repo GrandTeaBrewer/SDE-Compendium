@@ -14,20 +14,22 @@ foreach ($json["productList"] as $index => $productList) {
 
 
 // build html wrapping
-echo '      <div id="'. $productList["ID"] . '" data-content="./templates/index_products_colio.php?var1='. $productList["ID"] .'" class="productProfile isotopeTrigger">
-              <div class="card card-cascade cardProfile">
+
+//  card card-cascade cardProfile
+
+
+echo '      <div id="'. $productList["ID"] . '" data-content="./templates/index_products_colio.php?var1='. $productList["ID"] .'" class="productProfile card card-cascade isotopeTrigger '. $productList["Retail_Code"].' '. $productList["Theme"].'">
                   <div class="top-unit">
                         <a class="colio-link colioTmp" href="#" title="' . $productList["Product_Name"] .'">
                             <div class="cardPortrait text-xs-center">
-                              <img class="imgIndex imgPortrait img-thumbnail img-fluid" src="'. $productList["Image_Path"] . $productList["Product_Name_Short"] .'_icon.jpg" alt="' . $productList["Product_Name"] .'" data-toggle="tooltip" data-placement="bottom" title="' . $productList["Product_Name"] . '">
+                              <img class="imgProduct imgIndex imgPortrait img-thumbnail img-fluid" src="'. $productList["Image_Path"] . $productList["Product_Name_Short"] .'_icon.jpg" alt="' . $productList["Product_Name"] .'" data-toggle="tooltip" data-placement="bottom" title="' . $productList["Product_Name"] . '">
                             </div>
                             <div class="card-block">
                                 <h4 class="card-title">' . $productList["Product_Name"] .'</h4>
-                                <p class="card-text">' . $productList["Retail_Status"] .'</p>
+
                             </div>
                         </a>
                     </div>
-                </div>
             </div>';
 }
 

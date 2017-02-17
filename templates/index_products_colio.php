@@ -35,6 +35,7 @@ foreach ($filtered_json as $index => $productList) {
 
 
   // build product contents string
+
   // separate out csv string
   $productContents = explode(",", $productList['Contents']);
   // clear + declare variable
@@ -56,7 +57,7 @@ foreach ($filtered_json as $index => $productList) {
   } else {
 
   // build errara html block
-  $errataString= '<div class="cardErrata col-sm-12">
+  $errataString= '<div class="cardErrata col-sm-12"><hr/>
         <h3 class="h3-responsive title">' . $productList["Errata_Header"] . '</h3><hr/>
         <p class="errataDescription"> ' . $productList["Errata_Text"] . '</p>
     </div>';
@@ -66,7 +67,6 @@ foreach ($filtered_json as $index => $productList) {
 echo '<div class="row closeMe">
         <div class="cardHeader col-sm-12">
           <h1 class="h1-responsive title">' . $productList["Product_Name"] . '</h1>
-          <h4 class="h4-responsive">' .$productList["Retail_Status"] . '</h4>
         </div>
         <div class="charCard col-sm-6 text-xs-center">
             <img src="' . $productList["Image_Path"] . $productList["Product_Name_Short"] . '.jpg" class="img-fluid img-rounded" />
@@ -80,10 +80,15 @@ echo '<div class="row closeMe">
                     <li><strong>Retail Status: </strong>' . $productList["Retail_Status"] . '</li>
                 </ul>
                 <ul class="productHighlights">
-                    <li><strong>Recommended Retail Price (RRP): </strong>' .$productList["RRP"] . '</li>
+                    <li><strong>Retail Price (RRP): </strong>' .$productList["RRP"] . '</li>
                     <li><strong>Release Date: </strong> ' . $productList["Release_Date"] . '</li>
                 </ul>
-            </div>'. $errataString .'
+            </div>
+            <div class="col-sm-6">
+                <h3 class="h3-responsive title">Product Summary:</h3><hr/>
+                '. $contents_string .'
+            </div>
+            '. $errataString .'
         </div>
       </div>';
 
