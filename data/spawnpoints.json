@@ -355,6 +355,23 @@
             "Class_Code": "Spawn Point",
             "Image_Path": "img/spawnpoints/cold_eggs_spawning_point",
             "Filter_Type": "spawnFilter"
+        },
+        {
+            "ID": "S22",
+            "Name_Long": "Cursed Knight Spawning Point",
+            "Name_Formatted": "cursed_knight_spawning_point",
+            "Retail_Package": "Unknown",
+            "Retail_Code": "UNK",
+            "Theme": "Glauerdoom Moor",
+            "Release_Code": "TBR",
+            "Release_Description": "To be Released",
+            "Health_Pool": 3,
+            "Char_Type": "Spawning Point",
+            "Affinity": "Ruby",
+            "Associated_Spawns": "Grobbit Deathlord, Skull Squawk, Moorland Militia",
+            "Class_Code": "Spawn Point",
+            "Image_Path": "img/spawnpoints/cursed_knight_spawning_point",
+            "Filter_Type": "spawnFilter"
         }
     ]
 }
